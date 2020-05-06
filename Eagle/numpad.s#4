@@ -10123,9 +10123,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$30" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 <part name="U$31" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 <part name="U$32" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
-<part name="U$1" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-FLIPPED"/>
 <part name="U$2" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-ROTATED"/>
 <part name="U$3" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-ROTATED"/>
+<part name="U$1" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-FLIPPED"/>
 </parts>
 <sheets>
 <sheet>
@@ -10261,14 +10261,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U$32" gate="G$1" x="261.62" y="-114.3" smashed="yes">
 <attribute name="NAME" x="254.81" y="-108.982" size="1" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="200.66" y="-111.76" smashed="yes">
-<attribute name="NAME" x="193.85" y="-106.442" size="1" layer="95"/>
-</instance>
 <instance part="U$2" gate="G$1" x="292.1" y="-17.78" smashed="yes">
 <attribute name="NAME" x="285.29" y="-12.462" size="1" layer="95"/>
 </instance>
 <instance part="U$3" gate="G$1" x="302.26" y="-86.36" smashed="yes">
 <attribute name="NAME" x="295.45" y="-81.042" size="1" layer="95"/>
+</instance>
+<instance part="U$1" gate="G$1" x="200.66" y="-111.76" smashed="yes">
+<attribute name="NAME" x="193.85" y="-106.442" size="1" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -10438,9 +10438,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$12" class="0">
 <segment>
 <pinref part="D8" gate="D$1" pin="A"/>
+<pinref part="U$2" gate="G$1" pin="P0"/>
 <wire x1="276.86" y1="-17.78" x2="276.86" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-15.24" x2="281.94" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P0"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -10508,9 +10508,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$21" class="0">
 <segment>
 <pinref part="D15" gate="D$1" pin="A"/>
+<pinref part="U$3" gate="G$1" pin="P0"/>
 <wire x1="287.02" y1="-86.36" x2="287.02" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="-83.82" x2="292.1" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P0"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -10616,6 +10616,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$30" class="0">
 <segment>
+<pinref part="U$3" gate="G$1" pin="P1"/>
+<pinref part="U$2" gate="G$1" pin="P1"/>
 <wire x1="304.8" y1="-76.2" x2="304.8" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="-7.62" x2="294.64" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U$22" gate="G$1" pin="P1"/>
@@ -10628,8 +10630,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="129.54" y1="91.44" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SCLK(15,B1)"/>
 <wire x1="129.54" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P1"/>
-<pinref part="U$3" gate="G$1" pin="P1"/>
 </segment>
 </net>
 </nets>
