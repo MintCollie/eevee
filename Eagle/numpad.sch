@@ -328,1805 +328,9352 @@ In this library the device names are the same as the pin names of the symbols, t
 <library name="Keyboard">
 <description>Keyboard Keyswitch PCB footprints for MX and Alps switches.</description>
 <packages>
-<package name="ALPSPLATE-REVERSED-6U">
+<package name="ALPS-REVERSED-6U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-38.1" y="7" drill="3.05"/>
 <hole x="57.15" y="7" drill="3.05"/>
 <hole x="-38.1" y="-8.24" drill="4"/>
 <hole x="57.15" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-REVERSED-6U-FLIPPED">
+<package name="ALPS-REVERSED-6U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-38.1" y="-7" drill="3.05"/>
 <hole x="57.15" y="-7" drill="3.05"/>
 <hole x="-38.1" y="8.24" drill="4"/>
 <hole x="57.15" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-REVERSED-6U-FLIPPED-ROTATED">
+<package name="ALPS-REVERSED-6U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-38.1" drill="3.05"/>
 <hole x="-7" y="57.15" drill="3.05"/>
 <hole x="8.24" y="-38.1" drill="4"/>
 <hole x="8.24" y="57.15" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-REVERSED-6U-ROTATED">
+<package name="ALPS-REVERSED-6U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-38.1" drill="3.05"/>
 <hole x="7" y="57.15" drill="3.05"/>
 <hole x="-8.24" y="-38.1" drill="4"/>
 <hole x="-8.24" y="57.15" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-1U">
+<package name="ALPS-1U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-2U">
+<package name="ALPS-2U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-11.9" y="7" drill="3.05"/>
 <hole x="11.9" y="7" drill="3.05"/>
 <hole x="-11.9" y="-8.24" drill="4"/>
 <hole x="11.9" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-2U-FLIPPED">
+<package name="ALPS-2U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-11.9" y="-7" drill="3.05"/>
 <hole x="11.9" y="-7" drill="3.05"/>
 <hole x="-11.9" y="8.24" drill="4"/>
 <hole x="11.9" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-2U-FLIPPED-ROTATED">
+<package name="ALPS-2U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-11.9" drill="3.05"/>
 <hole x="-7" y="11.9" drill="3.05"/>
 <hole x="8.24" y="-11.9" drill="4"/>
 <hole x="8.24" y="11.9" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-2U-ROTATED">
+<package name="ALPS-2U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-11.9" drill="3.05"/>
 <hole x="7" y="11.9" drill="3.05"/>
 <hole x="-8.24" y="-11.9" drill="4"/>
 <hole x="-8.24" y="11.9" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-4U">
+<package name="ALPS-4U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-28.625" y="7" drill="3.05"/>
 <hole x="28.625" y="7" drill="3.05"/>
 <hole x="-28.625" y="-8.24" drill="4"/>
 <hole x="28.625" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-4U-FLIPPED">
+<package name="ALPS-4U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-28.625" y="-7" drill="3.05"/>
 <hole x="28.625" y="-7" drill="3.05"/>
 <hole x="-28.625" y="8.24" drill="4"/>
 <hole x="28.625" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-4U-FLIPPED-ROTATED">
+<package name="ALPS-4U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-28.625" drill="3.05"/>
 <hole x="-7" y="28.625" drill="3.05"/>
 <hole x="8.24" y="-28.625" drill="4"/>
 <hole x="8.24" y="28.625" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-4U-ROTATED">
+<package name="ALPS-4U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-28.625" drill="3.05"/>
 <hole x="7" y="28.625" drill="3.05"/>
 <hole x="-8.24" y="-28.625" drill="4"/>
 <hole x="-8.24" y="28.625" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6U">
+<package name="ALPS-6U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-57.15" y="7" drill="3.05"/>
 <hole x="38.1" y="7" drill="3.05"/>
 <hole x="-57.15" y="-8.24" drill="4"/>
 <hole x="38.1" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6U-FLIPPED">
+<package name="ALPS-6U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-57.15" y="-7" drill="3.05"/>
 <hole x="38.1" y="-7" drill="3.05"/>
 <hole x="-57.15" y="8.24" drill="4"/>
 <hole x="38.1" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6U-FLIPPED-ROTATED">
+<package name="ALPS-6U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-57.15" drill="3.05"/>
 <hole x="-7" y="38.1" drill="3.05"/>
 <hole x="8.24" y="-57.15" drill="4"/>
 <hole x="8.24" y="38.1" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6U-ROTATED">
+<package name="ALPS-6U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-57.15" drill="3.05"/>
 <hole x="7" y="38.1" drill="3.05"/>
 <hole x="-8.24" y="-57.15" drill="4"/>
 <hole x="-8.24" y="38.1" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.25U">
+<package name="ALPS-6.25U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-50" y="7" drill="3.05"/>
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
 <hole x="50" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.25U-FLIPPED">
+<package name="ALPS-6.25U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-50" y="-7" drill="3.05"/>
 <hole x="50" y="-7" drill="3.05"/>
 <hole x="-50" y="8.24" drill="4"/>
 <hole x="50" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.25U-FLIPPED-ROTATED">
+<package name="ALPS-6.25U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-50" drill="3.05"/>
 <hole x="-7" y="50" drill="3.05"/>
 <hole x="8.24" y="-50" drill="4"/>
 <hole x="8.24" y="50" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.25U-ROTATED">
+<package name="ALPS-6.25U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-50" drill="3.05"/>
 <hole x="7" y="50" drill="3.05"/>
 <hole x="-8.24" y="-50" drill="4"/>
 <hole x="-8.24" y="50" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.5U">
+<package name="ALPS-6.5U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-52.5" y="7" drill="3.05"/>
 <hole x="52.5" y="7" drill="3.05"/>
 <hole x="-52.5" y="-8.24" drill="4"/>
 <hole x="52.5" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.5U-FLIPPED">
+<package name="ALPS-6.5U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-52.5" y="-7" drill="3.05"/>
 <hole x="52.5" y="-7" drill="3.05"/>
 <hole x="-52.5" y="8.24" drill="4"/>
 <hole x="52.5" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.5U-FLIPPED-ROTATED">
+<package name="ALPS-6.5U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-52.5" drill="3.05"/>
 <hole x="-7" y="52.5" drill="3.05"/>
 <hole x="8.24" y="-52.5" drill="4"/>
 <hole x="8.24" y="52.5" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-6.5U-ROTATED">
+<package name="ALPS-6.5U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-52.5" drill="3.05"/>
 <hole x="7" y="52.5" drill="3.05"/>
 <hole x="-8.24" y="-52.5" drill="4"/>
 <hole x="-8.24" y="52.5" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-7U">
+<package name="ALPS-7U">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-57.15" y="7" drill="3.05"/>
 <hole x="57.15" y="7" drill="3.05"/>
 <hole x="-57.15" y="-8.24" drill="4"/>
 <hole x="57.15" y="-8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-7U-FLIPPED">
+<package name="ALPS-7U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-57.15" y="-7" drill="3.05"/>
 <hole x="57.15" y="-7" drill="3.05"/>
 <hole x="-57.15" y="8.24" drill="4"/>
 <hole x="57.15" y="8.24" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-7U-FLIPPED-ROTATED">
+<package name="ALPS-7U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="-7" y="-57.15" drill="3.05"/>
 <hole x="-7" y="57.15" drill="3.05"/>
 <hole x="8.24" y="-57.15" drill="4"/>
 <hole x="8.24" y="57.15" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSPLATE-7U-ROTATED">
+<package name="ALPS-7U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
 <hole x="7" y="-57.15" drill="3.05"/>
 <hole x="7" y="57.15" drill="3.05"/>
 <hole x="-8.24" y="-57.15" drill="4"/>
 <hole x="-8.24" y="57.15" drill="4"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-REVERSED-6U">
+<package name="ALPSMX-REVERSED-6U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-38.1" y="7" drill="3.05"/>
 <hole x="57.15" y="7" drill="3.05"/>
 <hole x="-38.1" y="-8.24" drill="4"/>
 <hole x="57.15" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-REVERSED-6U-FLIPPED">
+<package name="ALPSMX-REVERSED-6U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-38.1" y="-7" drill="3.05"/>
 <hole x="57.15" y="-7" drill="3.05"/>
 <hole x="-38.1" y="8.24" drill="4"/>
 <hole x="57.15" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-REVERSED-6U-FLIPPED-ROTATED">
+<package name="ALPSMX-REVERSED-6U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-38.1" drill="3.05"/>
 <hole x="-7" y="57.15" drill="3.05"/>
 <hole x="8.24" y="-38.1" drill="4"/>
 <hole x="8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-REVERSED-6U-ROTATED">
+<package name="ALPSMX-REVERSED-6U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-38.1" drill="3.05"/>
 <hole x="7" y="57.15" drill="3.05"/>
 <hole x="-8.24" y="-38.1" drill="4"/>
 <hole x="-8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-1U">
+<package name="ALPSMX-1U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-2U">
+<package name="ALPSMX-2U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-11.9" y="7" drill="3.05"/>
 <hole x="11.9" y="7" drill="3.05"/>
 <hole x="-11.9" y="-8.24" drill="4"/>
 <hole x="11.9" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-2U-FLIPPED">
+<package name="ALPSMX-2U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-11.9" y="-7" drill="3.05"/>
 <hole x="11.9" y="-7" drill="3.05"/>
 <hole x="-11.9" y="8.24" drill="4"/>
 <hole x="11.9" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-2U-FLIPPED-ROTATED">
+<package name="ALPSMX-2U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-11.9" drill="3.05"/>
 <hole x="-7" y="11.9" drill="3.05"/>
 <hole x="8.24" y="-11.9" drill="4"/>
 <hole x="8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-2U-ROTATED">
+<package name="ALPSMX-2U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-11.9" drill="3.05"/>
 <hole x="7" y="11.9" drill="3.05"/>
 <hole x="-8.24" y="-11.9" drill="4"/>
 <hole x="-8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-4U">
+<package name="ALPSMX-4U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-28.625" y="7" drill="3.05"/>
 <hole x="28.625" y="7" drill="3.05"/>
 <hole x="-28.625" y="-8.24" drill="4"/>
 <hole x="28.625" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-4U-FLIPPED">
+<package name="ALPSMX-4U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-28.625" y="-7" drill="3.05"/>
 <hole x="28.625" y="-7" drill="3.05"/>
 <hole x="-28.625" y="8.24" drill="4"/>
 <hole x="28.625" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-4U-FLIPPED-ROTATED">
+<package name="ALPSMX-4U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-28.625" drill="3.05"/>
 <hole x="-7" y="28.625" drill="3.05"/>
 <hole x="8.24" y="-28.625" drill="4"/>
 <hole x="8.24" y="28.625" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-4U-ROTATED">
+<package name="ALPSMX-4U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-28.625" drill="3.05"/>
 <hole x="7" y="28.625" drill="3.05"/>
 <hole x="-8.24" y="-28.625" drill="4"/>
 <hole x="-8.24" y="28.625" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6U">
+<package name="ALPSMX-6U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="7" drill="3.05"/>
 <hole x="38.1" y="7" drill="3.05"/>
 <hole x="-57.15" y="-8.24" drill="4"/>
 <hole x="38.1" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6U-FLIPPED">
+<package name="ALPSMX-6U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="-7" drill="3.05"/>
 <hole x="38.1" y="-7" drill="3.05"/>
 <hole x="-57.15" y="8.24" drill="4"/>
 <hole x="38.1" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6U-FLIPPED-ROTATED">
+<package name="ALPSMX-6U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-57.15" drill="3.05"/>
 <hole x="-7" y="38.1" drill="3.05"/>
 <hole x="8.24" y="-57.15" drill="4"/>
 <hole x="8.24" y="38.1" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6U-ROTATED">
+<package name="ALPSMX-6U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-57.15" drill="3.05"/>
 <hole x="7" y="38.1" drill="3.05"/>
 <hole x="-8.24" y="-57.15" drill="4"/>
 <hole x="-8.24" y="38.1" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.25U">
+<package name="ALPSMX-6.25U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-50" y="7" drill="3.05"/>
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
 <hole x="50" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.25U-FLIPPED">
+<package name="ALPSMX-6.25U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-50" y="-7" drill="3.05"/>
 <hole x="50" y="-7" drill="3.05"/>
 <hole x="-50" y="8.24" drill="4"/>
 <hole x="50" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.25U-FLIPPED-ROTATED">
+<package name="ALPSMX-6.25U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-50" drill="3.05"/>
 <hole x="-7" y="50" drill="3.05"/>
 <hole x="8.24" y="-50" drill="4"/>
 <hole x="8.24" y="50" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.25U-ROTATED">
+<package name="ALPSMX-6.25U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-50" drill="3.05"/>
 <hole x="7" y="50" drill="3.05"/>
 <hole x="-8.24" y="-50" drill="4"/>
 <hole x="-8.24" y="50" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.5U">
+<package name="ALPSMX-6.5U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-52.5" y="7" drill="3.05"/>
 <hole x="52.5" y="7" drill="3.05"/>
 <hole x="-52.5" y="-8.24" drill="4"/>
 <hole x="52.5" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.5U-FLIPPED">
+<package name="ALPSMX-6.5U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-52.5" y="-7" drill="3.05"/>
 <hole x="52.5" y="-7" drill="3.05"/>
 <hole x="-52.5" y="8.24" drill="4"/>
 <hole x="52.5" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.5U-FLIPPED-ROTATED">
+<package name="ALPSMX-6.5U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-52.5" drill="3.05"/>
 <hole x="-7" y="52.5" drill="3.05"/>
 <hole x="8.24" y="-52.5" drill="4"/>
 <hole x="8.24" y="52.5" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-6.5U-ROTATED">
+<package name="ALPSMX-6.5U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-52.5" drill="3.05"/>
 <hole x="7" y="52.5" drill="3.05"/>
 <hole x="-8.24" y="-52.5" drill="4"/>
 <hole x="-8.24" y="52.5" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-7U">
+<package name="ALPSMX-7U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="7" drill="3.05"/>
 <hole x="57.15" y="7" drill="3.05"/>
 <hole x="-57.15" y="-8.24" drill="4"/>
 <hole x="57.15" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-7U-FLIPPED">
+<package name="ALPSMX-7U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="-7" drill="3.05"/>
 <hole x="57.15" y="-7" drill="3.05"/>
 <hole x="-57.15" y="8.24" drill="4"/>
 <hole x="57.15" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-7U-FLIPPED-ROTATED">
+<package name="ALPSMX-7U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-57.15" drill="3.05"/>
 <hole x="-7" y="57.15" drill="3.05"/>
 <hole x="8.24" y="-57.15" drill="4"/>
 <hole x="8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="ALPSMXPLATE-7U-ROTATED">
+<package name="ALPSMX-7U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="8" x2="7" y2="8" width="0" layer="20"/>
-<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-8" x2="-7" y2="-8" width="0" layer="20"/>
-<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0" layer="20"/>
-<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0" layer="20"/>
-<wire x1="-7" y1="7" x2="-7" y2="8" width="0" layer="20"/>
-<wire x1="7" y1="8" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7.75" y2="7" width="0" layer="20"/>
-<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="7" y2="-8" width="0" layer="20"/>
-<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-57.15" drill="3.05"/>
 <hole x="7" y="57.15" drill="3.05"/>
 <hole x="-8.24" y="-57.15" drill="4"/>
 <hole x="-8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-REVERSED-6U">
+<package name="ALPSMXMIR-REVERSED-6U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-38.1" y="7" drill="3.05"/>
 <hole x="57.15" y="7" drill="3.05"/>
 <hole x="-38.1" y="-8.24" drill="4"/>
 <hole x="57.15" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-REVERSED-6U-FLIPPED">
+<package name="ALPSMXMIR-REVERSED-6U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-38.1" y="-7" drill="3.05"/>
 <hole x="57.15" y="-7" drill="3.05"/>
 <hole x="-38.1" y="8.24" drill="4"/>
 <hole x="57.15" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-REVERSED-6U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-REVERSED-6U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-38.1" drill="3.05"/>
 <hole x="-7" y="57.15" drill="3.05"/>
 <hole x="8.24" y="-38.1" drill="4"/>
 <hole x="8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-REVERSED-6U-ROTATED">
+<package name="ALPSMXMIR-REVERSED-6U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-38.1" drill="3.05"/>
 <hole x="7" y="57.15" drill="3.05"/>
 <hole x="-8.24" y="-38.1" drill="4"/>
 <hole x="-8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-1U">
+<package name="ALPSMXMIR-1U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-2U">
+<package name="ALPSMXMIR-2U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-11.9" y="7" drill="3.05"/>
 <hole x="11.9" y="7" drill="3.05"/>
 <hole x="-11.9" y="-8.24" drill="4"/>
 <hole x="11.9" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-2U-FLIPPED">
+<package name="ALPSMXMIR-2U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-11.9" y="-7" drill="3.05"/>
 <hole x="11.9" y="-7" drill="3.05"/>
 <hole x="-11.9" y="8.24" drill="4"/>
 <hole x="11.9" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-2U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-2U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-11.9" drill="3.05"/>
 <hole x="-7" y="11.9" drill="3.05"/>
 <hole x="8.24" y="-11.9" drill="4"/>
 <hole x="8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-2U-ROTATED">
+<package name="ALPSMXMIR-2U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-11.9" drill="3.05"/>
 <hole x="7" y="11.9" drill="3.05"/>
 <hole x="-8.24" y="-11.9" drill="4"/>
 <hole x="-8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-4U">
+<package name="ALPSMXMIR-4U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-28.625" y="7" drill="3.05"/>
 <hole x="28.625" y="7" drill="3.05"/>
 <hole x="-28.625" y="-8.24" drill="4"/>
 <hole x="28.625" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-4U-FLIPPED">
+<package name="ALPSMXMIR-4U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-28.625" y="-7" drill="3.05"/>
 <hole x="28.625" y="-7" drill="3.05"/>
 <hole x="-28.625" y="8.24" drill="4"/>
 <hole x="28.625" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-4U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-4U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-28.625" drill="3.05"/>
 <hole x="-7" y="28.625" drill="3.05"/>
 <hole x="8.24" y="-28.625" drill="4"/>
 <hole x="8.24" y="28.625" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-4U-ROTATED">
+<package name="ALPSMXMIR-4U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-28.625" drill="3.05"/>
 <hole x="7" y="28.625" drill="3.05"/>
 <hole x="-8.24" y="-28.625" drill="4"/>
 <hole x="-8.24" y="28.625" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6U">
+<package name="ALPSMXMIR-6U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="7" drill="3.05"/>
 <hole x="38.1" y="7" drill="3.05"/>
 <hole x="-57.15" y="-8.24" drill="4"/>
 <hole x="38.1" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6U-FLIPPED">
+<package name="ALPSMXMIR-6U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="-7" drill="3.05"/>
 <hole x="38.1" y="-7" drill="3.05"/>
 <hole x="-57.15" y="8.24" drill="4"/>
 <hole x="38.1" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-6U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-57.15" drill="3.05"/>
 <hole x="-7" y="38.1" drill="3.05"/>
 <hole x="8.24" y="-57.15" drill="4"/>
 <hole x="8.24" y="38.1" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6U-ROTATED">
+<package name="ALPSMXMIR-6U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-57.15" drill="3.05"/>
 <hole x="7" y="38.1" drill="3.05"/>
 <hole x="-8.24" y="-57.15" drill="4"/>
 <hole x="-8.24" y="38.1" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.25U">
+<package name="ALPSMXMIR-6.25U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-50" y="7" drill="3.05"/>
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
 <hole x="50" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.25U-FLIPPED">
+<package name="ALPSMXMIR-6.25U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-50" y="-7" drill="3.05"/>
 <hole x="50" y="-7" drill="3.05"/>
 <hole x="-50" y="8.24" drill="4"/>
 <hole x="50" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.25U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-6.25U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-50" drill="3.05"/>
 <hole x="-7" y="50" drill="3.05"/>
 <hole x="8.24" y="-50" drill="4"/>
 <hole x="8.24" y="50" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.25U-ROTATED">
+<package name="ALPSMXMIR-6.25U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-50" drill="3.05"/>
 <hole x="7" y="50" drill="3.05"/>
 <hole x="-8.24" y="-50" drill="4"/>
 <hole x="-8.24" y="50" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.5U">
+<package name="ALPSMXMIR-6.5U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-52.5" y="7" drill="3.05"/>
 <hole x="52.5" y="7" drill="3.05"/>
 <hole x="-52.5" y="-8.24" drill="4"/>
 <hole x="52.5" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.5U-FLIPPED">
+<package name="ALPSMXMIR-6.5U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-52.5" y="-7" drill="3.05"/>
 <hole x="52.5" y="-7" drill="3.05"/>
 <hole x="-52.5" y="8.24" drill="4"/>
 <hole x="52.5" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.5U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-6.5U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-52.5" drill="3.05"/>
 <hole x="-7" y="52.5" drill="3.05"/>
 <hole x="8.24" y="-52.5" drill="4"/>
 <hole x="8.24" y="52.5" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-6.5U-ROTATED">
+<package name="ALPSMXMIR-6.5U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-52.5" drill="3.05"/>
 <hole x="7" y="52.5" drill="3.05"/>
 <hole x="-8.24" y="-52.5" drill="4"/>
 <hole x="-8.24" y="52.5" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-7U">
+<package name="ALPSMXMIR-7U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="7" drill="3.05"/>
 <hole x="57.15" y="7" drill="3.05"/>
 <hole x="-57.15" y="-8.24" drill="4"/>
 <hole x="57.15" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-7U-FLIPPED">
+<package name="ALPSMXMIR-7U-FLIPPED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-57.15" y="-7" drill="3.05"/>
 <hole x="57.15" y="-7" drill="3.05"/>
 <hole x="-57.15" y="8.24" drill="4"/>
 <hole x="57.15" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-7U-FLIPPED-ROTATED">
+<package name="ALPSMXMIR-7U-FLIPPED-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-7" y="-57.15" drill="3.05"/>
 <hole x="-7" y="57.15" drill="3.05"/>
 <hole x="8.24" y="-57.15" drill="4"/>
 <hole x="8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-7U-ROTATED">
+<package name="ALPSMXMIR-7U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="8" x2="7" y2="8" width="0.125" layer="47"/>
+<wire x1="7.75" y1="7" x2="7.75" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-8" x2="-7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="-7" x2="-7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="-7.75" y1="7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-7" y1="7" x2="-7" y2="8" width="0.125" layer="47"/>
+<wire x1="7" y1="8" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7.75" y2="7" width="0.125" layer="47"/>
+<wire x1="7.75" y1="-7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
+<wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-57.15" drill="3.05"/>
 <hole x="7" y="57.15" drill="3.05"/>
 <hole x="-8.24" y="-57.15" drill="4"/>
 <hole x="-8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX3" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="MX4" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS3" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="ALPS4" x="2.5" y="4" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-REVERSED-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-38.1" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-38.1" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-REVERSED-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-38.1" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-38.1" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-REVERSED-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-38.1" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-38.1" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-REVERSED-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-38.1" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-38.1" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-1U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-2U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="-7" drill="3.05"/>
+<hole x="11.9" y="-7" drill="3.05"/>
+<hole x="-11.9" y="8.24" drill="4"/>
+<hole x="11.9" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-2U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-11.9" drill="3.05"/>
+<hole x="-7" y="11.9" drill="3.05"/>
+<hole x="8.24" y="-11.9" drill="4"/>
+<hole x="8.24" y="11.9" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-2U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-11.9" drill="3.05"/>
+<hole x="7" y="11.9" drill="3.05"/>
+<hole x="-8.24" y="-11.9" drill="4"/>
+<hole x="-8.24" y="11.9" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-4U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-28.625" y="7" drill="3.05"/>
+<hole x="28.625" y="7" drill="3.05"/>
+<hole x="-28.625" y="-8.24" drill="4"/>
+<hole x="28.625" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-4U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-28.625" y="-7" drill="3.05"/>
+<hole x="28.625" y="-7" drill="3.05"/>
+<hole x="-28.625" y="8.24" drill="4"/>
+<hole x="28.625" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-4U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-28.625" drill="3.05"/>
+<hole x="-7" y="28.625" drill="3.05"/>
+<hole x="8.24" y="-28.625" drill="4"/>
+<hole x="8.24" y="28.625" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-4U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-28.625" drill="3.05"/>
+<hole x="7" y="28.625" drill="3.05"/>
+<hole x="-8.24" y="-28.625" drill="4"/>
+<hole x="-8.24" y="28.625" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="38.1" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="38.1" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="38.1" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="38.1" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="38.1" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="38.1" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="38.1" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="38.1" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.25U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.25U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-50" y="-7" drill="3.05"/>
+<hole x="50" y="-7" drill="3.05"/>
+<hole x="-50" y="8.24" drill="4"/>
+<hole x="50" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.25U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-50" drill="3.05"/>
+<hole x="-7" y="50" drill="3.05"/>
+<hole x="8.24" y="-50" drill="4"/>
+<hole x="8.24" y="50" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.25U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-50" drill="3.05"/>
+<hole x="7" y="50" drill="3.05"/>
+<hole x="-8.24" y="-50" drill="4"/>
+<hole x="-8.24" y="50" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.5U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-52.5" y="7" drill="3.05"/>
+<hole x="52.5" y="7" drill="3.05"/>
+<hole x="-52.5" y="-8.24" drill="4"/>
+<hole x="52.5" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.5U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-52.5" y="-7" drill="3.05"/>
+<hole x="52.5" y="-7" drill="3.05"/>
+<hole x="-52.5" y="8.24" drill="4"/>
+<hole x="52.5" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.5U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-52.5" drill="3.05"/>
+<hole x="-7" y="52.5" drill="3.05"/>
+<hole x="8.24" y="-52.5" drill="4"/>
+<hole x="8.24" y="52.5" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-6.5U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-52.5" drill="3.05"/>
+<hole x="7" y="52.5" drill="3.05"/>
+<hole x="-8.24" y="-52.5" drill="4"/>
+<hole x="-8.24" y="52.5" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-7U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-7U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-7U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOC-7U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<hole x="0" y="0" drill="3.4"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-REVERSED-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-38.1" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-38.1" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-REVERSED-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-38.1" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-38.1" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-REVERSED-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-38.1" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-38.1" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-REVERSED-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-38.1" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-38.1" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-1U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-2U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="-7" drill="3.05"/>
+<hole x="11.9" y="-7" drill="3.05"/>
+<hole x="-11.9" y="8.24" drill="4"/>
+<hole x="11.9" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-2U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-11.9" drill="3.05"/>
+<hole x="-7" y="11.9" drill="3.05"/>
+<hole x="8.24" y="-11.9" drill="4"/>
+<hole x="8.24" y="11.9" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-2U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-11.9" drill="3.05"/>
+<hole x="7" y="11.9" drill="3.05"/>
+<hole x="-8.24" y="-11.9" drill="4"/>
+<hole x="-8.24" y="11.9" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-4U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-28.625" y="7" drill="3.05"/>
+<hole x="28.625" y="7" drill="3.05"/>
+<hole x="-28.625" y="-8.24" drill="4"/>
+<hole x="28.625" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-4U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-28.625" y="-7" drill="3.05"/>
+<hole x="28.625" y="-7" drill="3.05"/>
+<hole x="-28.625" y="8.24" drill="4"/>
+<hole x="28.625" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-4U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-28.625" drill="3.05"/>
+<hole x="-7" y="28.625" drill="3.05"/>
+<hole x="8.24" y="-28.625" drill="4"/>
+<hole x="8.24" y="28.625" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-4U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-28.625" drill="3.05"/>
+<hole x="7" y="28.625" drill="3.05"/>
+<hole x="-8.24" y="-28.625" drill="4"/>
+<hole x="-8.24" y="28.625" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="38.1" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="38.1" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="38.1" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="38.1" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="38.1" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="38.1" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="38.1" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="38.1" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.25U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.25U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-50" y="-7" drill="3.05"/>
+<hole x="50" y="-7" drill="3.05"/>
+<hole x="-50" y="8.24" drill="4"/>
+<hole x="50" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.25U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-50" drill="3.05"/>
+<hole x="-7" y="50" drill="3.05"/>
+<hole x="8.24" y="-50" drill="4"/>
+<hole x="8.24" y="50" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.25U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-50" drill="3.05"/>
+<hole x="7" y="50" drill="3.05"/>
+<hole x="-8.24" y="-50" drill="4"/>
+<hole x="-8.24" y="50" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.5U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-52.5" y="7" drill="3.05"/>
+<hole x="52.5" y="7" drill="3.05"/>
+<hole x="-52.5" y="-8.24" drill="4"/>
+<hole x="52.5" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.5U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-52.5" y="-7" drill="3.05"/>
+<hole x="52.5" y="-7" drill="3.05"/>
+<hole x="-52.5" y="8.24" drill="4"/>
+<hole x="52.5" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.5U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-52.5" drill="3.05"/>
+<hole x="-7" y="52.5" drill="3.05"/>
+<hole x="8.24" y="-52.5" drill="4"/>
+<hole x="8.24" y="52.5" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-6.5U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-52.5" drill="3.05"/>
+<hole x="7" y="52.5" drill="3.05"/>
+<hole x="-8.24" y="-52.5" drill="4"/>
+<hole x="-8.24" y="52.5" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-7U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-7U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-7U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="CHOCX-7U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="-1.39" y2="1.15" width="0" layer="20"/>
+<wire x1="1.39" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<wire x1="-1.39" y1="1.15" x2="1.39" y2="1.15" width="0" layer="20" curve="-100.795498"/>
+<hole x="-5.22" y="-4.2" drill="0.6"/>
+<hole x="-5.5" y="5.5" drill="1.3"/>
+<hole x="5.5" y="-5.5" drill="1.3"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="CHOC1" x="0" y="5.9" drill="1.2" diameter="2.54"/>
+<pad name="CHOC2" x="5" y="3.8" drill="1.2" diameter="2.54"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-REVERSED-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-38.1" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-38.1" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-REVERSED-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-38.1" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-38.1" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-REVERSED-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-38.1" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-38.1" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-REVERSED-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-38.1" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-38.1" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-1U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-2U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-11.9" y="-7" drill="3.05"/>
+<hole x="11.9" y="-7" drill="3.05"/>
+<hole x="-11.9" y="8.24" drill="4"/>
+<hole x="11.9" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-2U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-11.9" drill="3.05"/>
+<hole x="-7" y="11.9" drill="3.05"/>
+<hole x="8.24" y="-11.9" drill="4"/>
+<hole x="8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-2U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-11.9" drill="3.05"/>
+<hole x="7" y="11.9" drill="3.05"/>
+<hole x="-8.24" y="-11.9" drill="4"/>
+<hole x="-8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-4U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-28.625" y="7" drill="3.05"/>
+<hole x="28.625" y="7" drill="3.05"/>
+<hole x="-28.625" y="-8.24" drill="4"/>
+<hole x="28.625" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-4U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-28.625" y="-7" drill="3.05"/>
+<hole x="28.625" y="-7" drill="3.05"/>
+<hole x="-28.625" y="8.24" drill="4"/>
+<hole x="28.625" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-4U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-28.625" drill="3.05"/>
+<hole x="-7" y="28.625" drill="3.05"/>
+<hole x="8.24" y="-28.625" drill="4"/>
+<hole x="8.24" y="28.625" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-4U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-28.625" drill="3.05"/>
+<hole x="7" y="28.625" drill="3.05"/>
+<hole x="-8.24" y="-28.625" drill="4"/>
+<hole x="-8.24" y="28.625" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="38.1" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="38.1" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="38.1" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="38.1" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="38.1" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="38.1" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="38.1" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="38.1" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.25U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.25U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-50" y="-7" drill="3.05"/>
+<hole x="50" y="-7" drill="3.05"/>
+<hole x="-50" y="8.24" drill="4"/>
+<hole x="50" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.25U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-50" drill="3.05"/>
+<hole x="-7" y="50" drill="3.05"/>
+<hole x="8.24" y="-50" drill="4"/>
+<hole x="8.24" y="50" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.25U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-50" drill="3.05"/>
+<hole x="7" y="50" drill="3.05"/>
+<hole x="-8.24" y="-50" drill="4"/>
+<hole x="-8.24" y="50" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.5U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-52.5" y="7" drill="3.05"/>
+<hole x="52.5" y="7" drill="3.05"/>
+<hole x="-52.5" y="-8.24" drill="4"/>
+<hole x="52.5" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.5U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-52.5" y="-7" drill="3.05"/>
+<hole x="52.5" y="-7" drill="3.05"/>
+<hole x="-52.5" y="8.24" drill="4"/>
+<hole x="52.5" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.5U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-52.5" drill="3.05"/>
+<hole x="-7" y="52.5" drill="3.05"/>
+<hole x="8.24" y="-52.5" drill="4"/>
+<hole x="8.24" y="52.5" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-6.5U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-52.5" drill="3.05"/>
+<hole x="7" y="52.5" drill="3.05"/>
+<hole x="-8.24" y="-52.5" drill="4"/>
+<hole x="-8.24" y="52.5" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-7U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-7U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-7U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MX-7U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-REVERSED-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-38.1" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-38.1" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-REVERSED-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-38.1" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-38.1" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-REVERSED-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-38.1" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-38.1" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-REVERSED-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-38.1" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-38.1" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-1U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-2U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-11.9" y="-7" drill="3.05"/>
+<hole x="11.9" y="-7" drill="3.05"/>
+<hole x="-11.9" y="8.24" drill="4"/>
+<hole x="11.9" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-2U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-11.9" drill="3.05"/>
+<hole x="-7" y="11.9" drill="3.05"/>
+<hole x="8.24" y="-11.9" drill="4"/>
+<hole x="8.24" y="11.9" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-2U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-11.9" drill="3.05"/>
+<hole x="7" y="11.9" drill="3.05"/>
+<hole x="-8.24" y="-11.9" drill="4"/>
+<hole x="-8.24" y="11.9" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-4U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-28.625" y="7" drill="3.05"/>
+<hole x="28.625" y="7" drill="3.05"/>
+<hole x="-28.625" y="-8.24" drill="4"/>
+<hole x="28.625" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-4U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-28.625" y="-7" drill="3.05"/>
+<hole x="28.625" y="-7" drill="3.05"/>
+<hole x="-28.625" y="8.24" drill="4"/>
+<hole x="28.625" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-4U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-28.625" drill="3.05"/>
+<hole x="-7" y="28.625" drill="3.05"/>
+<hole x="8.24" y="-28.625" drill="4"/>
+<hole x="8.24" y="28.625" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-4U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-28.625" drill="3.05"/>
+<hole x="7" y="28.625" drill="3.05"/>
+<hole x="-8.24" y="-28.625" drill="4"/>
+<hole x="-8.24" y="28.625" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="38.1" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="38.1" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="38.1" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="38.1" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="38.1" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="38.1" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="38.1" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="38.1" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.25U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.25U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-50" y="-7" drill="3.05"/>
+<hole x="50" y="-7" drill="3.05"/>
+<hole x="-50" y="8.24" drill="4"/>
+<hole x="50" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.25U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-50" drill="3.05"/>
+<hole x="-7" y="50" drill="3.05"/>
+<hole x="8.24" y="-50" drill="4"/>
+<hole x="8.24" y="50" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.25U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-50" drill="3.05"/>
+<hole x="7" y="50" drill="3.05"/>
+<hole x="-8.24" y="-50" drill="4"/>
+<hole x="-8.24" y="50" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.5U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-52.5" y="7" drill="3.05"/>
+<hole x="52.5" y="7" drill="3.05"/>
+<hole x="-52.5" y="-8.24" drill="4"/>
+<hole x="52.5" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.5U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-52.5" y="-7" drill="3.05"/>
+<hole x="52.5" y="-7" drill="3.05"/>
+<hole x="-52.5" y="8.24" drill="4"/>
+<hole x="52.5" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.5U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-52.5" drill="3.05"/>
+<hole x="-7" y="52.5" drill="3.05"/>
+<hole x="8.24" y="-52.5" drill="4"/>
+<hole x="8.24" y="52.5" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-6.5U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-52.5" drill="3.05"/>
+<hole x="7" y="52.5" drill="3.05"/>
+<hole x="-8.24" y="-52.5" drill="4"/>
+<hole x="-8.24" y="52.5" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-7U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-7U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-7U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHS-7U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-REVERSED-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-38.1" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-38.1" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-REVERSED-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-38.1" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-38.1" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-REVERSED-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-38.1" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-38.1" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-REVERSED-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-38.1" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-38.1" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-1U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-2U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-11.9" y="-7" drill="3.05"/>
+<hole x="11.9" y="-7" drill="3.05"/>
+<hole x="-11.9" y="8.24" drill="4"/>
+<hole x="11.9" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-2U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-11.9" drill="3.05"/>
+<hole x="-7" y="11.9" drill="3.05"/>
+<hole x="8.24" y="-11.9" drill="4"/>
+<hole x="8.24" y="11.9" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-2U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-11.9" drill="3.05"/>
+<hole x="7" y="11.9" drill="3.05"/>
+<hole x="-8.24" y="-11.9" drill="4"/>
+<hole x="-8.24" y="11.9" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-4U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-28.625" y="7" drill="3.05"/>
+<hole x="28.625" y="7" drill="3.05"/>
+<hole x="-28.625" y="-8.24" drill="4"/>
+<hole x="28.625" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-4U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-28.625" y="-7" drill="3.05"/>
+<hole x="28.625" y="-7" drill="3.05"/>
+<hole x="-28.625" y="8.24" drill="4"/>
+<hole x="28.625" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-4U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-28.625" drill="3.05"/>
+<hole x="-7" y="28.625" drill="3.05"/>
+<hole x="8.24" y="-28.625" drill="4"/>
+<hole x="8.24" y="28.625" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-4U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-28.625" drill="3.05"/>
+<hole x="7" y="28.625" drill="3.05"/>
+<hole x="-8.24" y="-28.625" drill="4"/>
+<hole x="-8.24" y="28.625" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="38.1" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="38.1" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="38.1" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="38.1" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="38.1" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="38.1" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="38.1" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="38.1" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.25U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.25U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-50" y="-7" drill="3.05"/>
+<hole x="50" y="-7" drill="3.05"/>
+<hole x="-50" y="8.24" drill="4"/>
+<hole x="50" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.25U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-50" drill="3.05"/>
+<hole x="-7" y="50" drill="3.05"/>
+<hole x="8.24" y="-50" drill="4"/>
+<hole x="8.24" y="50" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.25U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-50" drill="3.05"/>
+<hole x="7" y="50" drill="3.05"/>
+<hole x="-8.24" y="-50" drill="4"/>
+<hole x="-8.24" y="50" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.5U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-52.5" y="7" drill="3.05"/>
+<hole x="52.5" y="7" drill="3.05"/>
+<hole x="-52.5" y="-8.24" drill="4"/>
+<hole x="52.5" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.5U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-52.5" y="-7" drill="3.05"/>
+<hole x="52.5" y="-7" drill="3.05"/>
+<hole x="-52.5" y="8.24" drill="4"/>
+<hole x="52.5" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.5U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-52.5" drill="3.05"/>
+<hole x="-7" y="52.5" drill="3.05"/>
+<hole x="8.24" y="-52.5" drill="4"/>
+<hole x="8.24" y="52.5" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-6.5U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-52.5" drill="3.05"/>
+<hole x="7" y="52.5" drill="3.05"/>
+<hole x="-8.24" y="-52.5" drill="4"/>
+<hole x="-8.24" y="52.5" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-7U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-7U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-7U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="MXHSPCB-7U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.15" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.15" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.15" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.15" layer="47"/>
+<wire x1="5.5" y1="0.8" x2="5.5" y2="4.6" width="0.15" layer="21"/>
+<wire x1="5.5" y1="4.6" x2="3.3" y2="6.8" width="0.15" layer="21" curve="90"/>
+<wire x1="3.3" y1="6.8" x2="-4.3" y2="6.8" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="6.8" x2="-4.3" y2="3.85" width="0.15" layer="21"/>
+<wire x1="-4.3" y1="3.85" x2="-3.7" y2="3.3" width="0.15" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.3" x2="0.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="3.3" x2="2.3" y2="1.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="1.35" width="0.15" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="2.65" y2="0.8" width="0.15" layer="21" curve="90"/>
+<wire x1="2.65" y1="0.8" x2="5.5" y2="0.8" width="0.15" layer="21"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="3.81" y="2.54" drill="3"/>
+<hole x="-2.54" y="5.08" drill="3"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<smd name="MX1" x="7.36" y="2.54" dx="2.55" dy="2.5" layer="1"/>
+<smd name="MX2" x="-6.09" y="5.08" dx="2.55" dy="2.5" layer="1"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-REVERSED-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-38.1" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-38.1" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-REVERSED-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-38.1" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-38.1" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-REVERSED-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-38.1" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-38.1" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-REVERSED-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-38.1" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-38.1" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-1U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-2U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-2U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-11.9" y="-7" drill="3.05"/>
+<hole x="11.9" y="-7" drill="3.05"/>
+<hole x="-11.9" y="8.24" drill="4"/>
+<hole x="11.9" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-2U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-11.9" drill="3.05"/>
+<hole x="-7" y="11.9" drill="3.05"/>
+<hole x="8.24" y="-11.9" drill="4"/>
+<hole x="8.24" y="11.9" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-2U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-11.9" drill="3.05"/>
+<hole x="7" y="11.9" drill="3.05"/>
+<hole x="-8.24" y="-11.9" drill="4"/>
+<hole x="-8.24" y="11.9" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-4U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-28.625" y="7" drill="3.05"/>
+<hole x="28.625" y="7" drill="3.05"/>
+<hole x="-28.625" y="-8.24" drill="4"/>
+<hole x="28.625" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-4U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-28.625" y="-7" drill="3.05"/>
+<hole x="28.625" y="-7" drill="3.05"/>
+<hole x="-28.625" y="8.24" drill="4"/>
+<hole x="28.625" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-4U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-28.625" drill="3.05"/>
+<hole x="-7" y="28.625" drill="3.05"/>
+<hole x="8.24" y="-28.625" drill="4"/>
+<hole x="8.24" y="28.625" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-4U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-28.625" drill="3.05"/>
+<hole x="7" y="28.625" drill="3.05"/>
+<hole x="-8.24" y="-28.625" drill="4"/>
+<hole x="-8.24" y="28.625" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="38.1" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="38.1" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="38.1" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="38.1" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="38.1" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="38.1" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="38.1" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="38.1" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.25U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.25U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-50" y="-7" drill="3.05"/>
+<hole x="50" y="-7" drill="3.05"/>
+<hole x="-50" y="8.24" drill="4"/>
+<hole x="50" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.25U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-50" drill="3.05"/>
+<hole x="-7" y="50" drill="3.05"/>
+<hole x="8.24" y="-50" drill="4"/>
+<hole x="8.24" y="50" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.25U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-50" drill="3.05"/>
+<hole x="7" y="50" drill="3.05"/>
+<hole x="-8.24" y="-50" drill="4"/>
+<hole x="-8.24" y="50" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.5U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-52.5" y="7" drill="3.05"/>
+<hole x="52.5" y="7" drill="3.05"/>
+<hole x="-52.5" y="-8.24" drill="4"/>
+<hole x="52.5" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.5U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-52.5" y="-7" drill="3.05"/>
+<hole x="52.5" y="-7" drill="3.05"/>
+<hole x="-52.5" y="8.24" drill="4"/>
+<hole x="52.5" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.5U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-52.5" drill="3.05"/>
+<hole x="-7" y="52.5" drill="3.05"/>
+<hole x="8.24" y="-52.5" drill="4"/>
+<hole x="8.24" y="52.5" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-6.5U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-52.5" drill="3.05"/>
+<hole x="7" y="52.5" drill="3.05"/>
+<hole x="-8.24" y="-52.5" drill="4"/>
+<hole x="-8.24" y="52.5" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-7U">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="7" drill="3.05"/>
+<hole x="57.15" y="7" drill="3.05"/>
+<hole x="-57.15" y="-8.24" drill="4"/>
+<hole x="57.15" y="-8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-7U-FLIPPED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-57.15" y="-7" drill="3.05"/>
+<hole x="57.15" y="-7" drill="3.05"/>
+<hole x="-57.15" y="8.24" drill="4"/>
+<hole x="57.15" y="8.24" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-7U-FLIPPED-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="-7" y="-57.15" drill="3.05"/>
+<hole x="-7" y="57.15" drill="3.05"/>
+<hole x="8.24" y="-57.15" drill="4"/>
+<hole x="8.24" y="57.15" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+</package>
+<package name="X-7U-ROTATED">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<wire x1="-1.7" y1="-4.05" x2="1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-4.05" x2="1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="1.7" y1="-5.55" x2="-1.7" y2="-5.55" width="0.1" layer="47"/>
+<wire x1="-1.7" y1="-5.55" x2="-1.7" y2="-4.05" width="0.1" layer="47"/>
+<wire x1="2.3" y1="-2.95" x2="-2.3" y2="-2.95" width="0" layer="20"/>
+<wire x1="-2.3" y1="-2.95" x2="-2.55" y2="-2.7" width="0" layer="20" curve="-90"/>
+<wire x1="-2.55" y1="-2.7" x2="-2.55" y2="0.9" width="0" layer="20"/>
+<wire x1="-2.55" y1="0.9" x2="-2.3" y2="1.15" width="0" layer="20" curve="-90"/>
+<wire x1="-2.3" y1="1.15" x2="2.3" y2="1.15" width="0" layer="20"/>
+<wire x1="2.3" y1="1.15" x2="2.55" y2="0.9" width="0" layer="20" curve="-90"/>
+<wire x1="2.55" y1="0.9" x2="2.55" y2="-2.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-2.7" x2="2.3" y2="-2.95" width="0" layer="20" curve="-90"/>
+<hole x="-5.5" y="0" drill="1.85"/>
+<hole x="5.5" y="0" drill="1.85"/>
+<hole x="7" y="-57.15" drill="3.05"/>
+<hole x="7" y="57.15" drill="3.05"/>
+<hole x="-8.24" y="-57.15" drill="4"/>
+<hole x="-8.24" y="57.15" drill="4"/>
+<pad name="X1" x="-3.4" y="2.9" drill="1.3" diameter="2.54"/>
+<pad name="X2" x="-3.4" y="-2" drill="1.3" diameter="2.54"/>
+<text x="0" y="-4.8" size="1" layer="47" font="vector" ratio="13" align="center">LED</text>
+<text x="0" y="-6.215" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-6.215" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="KEYSWITCH-PLATE">
-<description>Keyboard switch cutout for FR4 plates.</description>
+<symbol name="KEYSWITCH-PLAIN">
+<description>Keyboard switch without LEDs.</description>
 <wire x1="-7.54" y1="7.54" x2="7.54" y2="7.54" width="0.254" layer="94"/>
 <wire x1="7.54" y1="7.54" x2="7.54" y2="-7.54" width="0.254" layer="94"/>
 <wire x1="7.54" y1="-7.54" x2="-7.54" y2="-7.54" width="0.254" layer="94"/>
 <wire x1="-7.54" y1="-7.54" x2="-7.54" y2="7.54" width="0.254" layer="94"/>
 <text x="-6.81" y="5.318" size="1" layer="95">&gt;NAME</text>
+<pin name="P0" x="-10.16" y="2.54" length="short" swaplevel="1"/>
+<pin name="P1" x="2.54" y="10.16" length="short" swaplevel="1" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KEYSWITCH-PLATE">
+<deviceset name="KEYSWITCH-PLAIN">
 <gates>
-<gate name="G$1" symbol="KEYSWITCH-PLATE" x="0" y="0"/>
+<gate name="G$1" symbol="KEYSWITCH-PLAIN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-ALPSPLATE--6U" package="ALPSPLATE-REVERSED-6U">
+<device name="-ALPS--6U" package="ALPS-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE--6U-FLIPPED" package="ALPSPLATE-REVERSED-6U-FLIPPED">
+<device name="-ALPS--6U-FLIPPED" package="ALPS-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE--6U-FLIPPED-ROTATED" package="ALPSPLATE-REVERSED-6U-FLIPPED-ROTATED">
+<device name="-ALPS--6U-FLIPPED-ROTATED" package="ALPS-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE--6U-ROTATED" package="ALPSPLATE-REVERSED-6U-ROTATED">
+<device name="-ALPS--6U-ROTATED" package="ALPS-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-1U" package="ALPSPLATE-1U">
+<device name="-ALPS-1U" package="ALPS-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-2U" package="ALPSPLATE-2U">
+<device name="-ALPS-2U" package="ALPS-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-2U-FLIPPED" package="ALPSPLATE-2U-FLIPPED">
+<device name="-ALPS-2U-FLIPPED" package="ALPS-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-2U-FLIPPED-ROTATED" package="ALPSPLATE-2U-FLIPPED-ROTATED">
+<device name="-ALPS-2U-FLIPPED-ROTATED" package="ALPS-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-2U-ROTATED" package="ALPSPLATE-2U-ROTATED">
+<device name="-ALPS-2U-ROTATED" package="ALPS-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-4U" package="ALPSPLATE-4U">
+<device name="-ALPS-4U" package="ALPS-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-4U-FLIPPED" package="ALPSPLATE-4U-FLIPPED">
+<device name="-ALPS-4U-FLIPPED" package="ALPS-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-4U-FLIPPED-ROTATED" package="ALPSPLATE-4U-FLIPPED-ROTATED">
+<device name="-ALPS-4U-FLIPPED-ROTATED" package="ALPS-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-4U-ROTATED" package="ALPSPLATE-4U-ROTATED">
+<device name="-ALPS-4U-ROTATED" package="ALPS-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6U" package="ALPSPLATE-6U">
+<device name="-ALPS-6U" package="ALPS-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6U-FLIPPED" package="ALPSPLATE-6U-FLIPPED">
+<device name="-ALPS-6U-FLIPPED" package="ALPS-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6U-FLIPPED-ROTATED" package="ALPSPLATE-6U-FLIPPED-ROTATED">
+<device name="-ALPS-6U-FLIPPED-ROTATED" package="ALPS-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6U-ROTATED" package="ALPSPLATE-6U-ROTATED">
+<device name="-ALPS-6U-ROTATED" package="ALPS-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.25U" package="ALPSPLATE-6.25U">
+<device name="-ALPS-6.25U" package="ALPS-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.25U-FLIPPED" package="ALPSPLATE-6.25U-FLIPPED">
+<device name="-ALPS-6.25U-FLIPPED" package="ALPS-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.25U-FLIPPED-ROTATED" package="ALPSPLATE-6.25U-FLIPPED-ROTATED">
+<device name="-ALPS-6.25U-FLIPPED-ROTATED" package="ALPS-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.25U-ROTATED" package="ALPSPLATE-6.25U-ROTATED">
+<device name="-ALPS-6.25U-ROTATED" package="ALPS-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.5U" package="ALPSPLATE-6.5U">
+<device name="-ALPS-6.5U" package="ALPS-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.5U-FLIPPED" package="ALPSPLATE-6.5U-FLIPPED">
+<device name="-ALPS-6.5U-FLIPPED" package="ALPS-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.5U-FLIPPED-ROTATED" package="ALPSPLATE-6.5U-FLIPPED-ROTATED">
+<device name="-ALPS-6.5U-FLIPPED-ROTATED" package="ALPS-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-6.5U-ROTATED" package="ALPSPLATE-6.5U-ROTATED">
+<device name="-ALPS-6.5U-ROTATED" package="ALPS-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-7U" package="ALPSPLATE-7U">
+<device name="-ALPS-7U" package="ALPS-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-7U-FLIPPED" package="ALPSPLATE-7U-FLIPPED">
+<device name="-ALPS-7U-FLIPPED" package="ALPS-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-7U-FLIPPED-ROTATED" package="ALPSPLATE-7U-FLIPPED-ROTATED">
+<device name="-ALPS-7U-FLIPPED-ROTATED" package="ALPS-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSPLATE-7U-ROTATED" package="ALPSPLATE-7U-ROTATED">
+<device name="-ALPS-7U-ROTATED" package="ALPS-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE--6U" package="ALPSMXPLATE-REVERSED-6U">
+<device name="-ALPSMX--6U" package="ALPSMX-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE--6U-FLIPPED" package="ALPSMXPLATE-REVERSED-6U-FLIPPED">
+<device name="-ALPSMX--6U-FLIPPED" package="ALPSMX-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE--6U-FLIPPED-ROTATED" package="ALPSMXPLATE-REVERSED-6U-FLIPPED-ROTATED">
+<device name="-ALPSMX--6U-FLIPPED-ROTATED" package="ALPSMX-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE--6U-ROTATED" package="ALPSMXPLATE-REVERSED-6U-ROTATED">
+<device name="-ALPSMX--6U-ROTATED" package="ALPSMX-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-1U" package="ALPSMXPLATE-1U">
+<device name="-ALPSMX-1U" package="ALPSMX-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-2U" package="ALPSMXPLATE-2U">
+<device name="-ALPSMX-2U" package="ALPSMX-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-2U-FLIPPED" package="ALPSMXPLATE-2U-FLIPPED">
+<device name="-ALPSMX-2U-FLIPPED" package="ALPSMX-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-2U-FLIPPED-ROTATED" package="ALPSMXPLATE-2U-FLIPPED-ROTATED">
+<device name="-ALPSMX-2U-FLIPPED-ROTATED" package="ALPSMX-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-2U-ROTATED" package="ALPSMXPLATE-2U-ROTATED">
+<device name="-ALPSMX-2U-ROTATED" package="ALPSMX-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-4U" package="ALPSMXPLATE-4U">
+<device name="-ALPSMX-4U" package="ALPSMX-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-4U-FLIPPED" package="ALPSMXPLATE-4U-FLIPPED">
+<device name="-ALPSMX-4U-FLIPPED" package="ALPSMX-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-4U-FLIPPED-ROTATED" package="ALPSMXPLATE-4U-FLIPPED-ROTATED">
+<device name="-ALPSMX-4U-FLIPPED-ROTATED" package="ALPSMX-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-4U-ROTATED" package="ALPSMXPLATE-4U-ROTATED">
+<device name="-ALPSMX-4U-ROTATED" package="ALPSMX-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6U" package="ALPSMXPLATE-6U">
+<device name="-ALPSMX-6U" package="ALPSMX-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6U-FLIPPED" package="ALPSMXPLATE-6U-FLIPPED">
+<device name="-ALPSMX-6U-FLIPPED" package="ALPSMX-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6U-FLIPPED-ROTATED" package="ALPSMXPLATE-6U-FLIPPED-ROTATED">
+<device name="-ALPSMX-6U-FLIPPED-ROTATED" package="ALPSMX-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6U-ROTATED" package="ALPSMXPLATE-6U-ROTATED">
+<device name="-ALPSMX-6U-ROTATED" package="ALPSMX-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.25U" package="ALPSMXPLATE-6.25U">
+<device name="-ALPSMX-6.25U" package="ALPSMX-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.25U-FLIPPED" package="ALPSMXPLATE-6.25U-FLIPPED">
+<device name="-ALPSMX-6.25U-FLIPPED" package="ALPSMX-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.25U-FLIPPED-ROTATED" package="ALPSMXPLATE-6.25U-FLIPPED-ROTATED">
+<device name="-ALPSMX-6.25U-FLIPPED-ROTATED" package="ALPSMX-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.25U-ROTATED" package="ALPSMXPLATE-6.25U-ROTATED">
+<device name="-ALPSMX-6.25U-ROTATED" package="ALPSMX-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.5U" package="ALPSMXPLATE-6.5U">
+<device name="-ALPSMX-6.5U" package="ALPSMX-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.5U-FLIPPED" package="ALPSMXPLATE-6.5U-FLIPPED">
+<device name="-ALPSMX-6.5U-FLIPPED" package="ALPSMX-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.5U-FLIPPED-ROTATED" package="ALPSMXPLATE-6.5U-FLIPPED-ROTATED">
+<device name="-ALPSMX-6.5U-FLIPPED-ROTATED" package="ALPSMX-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-6.5U-ROTATED" package="ALPSMXPLATE-6.5U-ROTATED">
+<device name="-ALPSMX-6.5U-ROTATED" package="ALPSMX-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-7U" package="ALPSMXPLATE-7U">
+<device name="-ALPSMX-7U" package="ALPSMX-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-7U-FLIPPED" package="ALPSMXPLATE-7U-FLIPPED">
+<device name="-ALPSMX-7U-FLIPPED" package="ALPSMX-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-7U-FLIPPED-ROTATED" package="ALPSMXPLATE-7U-FLIPPED-ROTATED">
+<device name="-ALPSMX-7U-FLIPPED-ROTATED" package="ALPSMX-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-ALPSMXPLATE-7U-ROTATED" package="ALPSMXPLATE-7U-ROTATED">
+<device name="-ALPSMX-7U-ROTATED" package="ALPSMX-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE--6U" package="MXPLATE-REVERSED-6U">
+<device name="-ALPSMXMIR--6U" package="ALPSMXMIR-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE--6U-FLIPPED" package="MXPLATE-REVERSED-6U-FLIPPED">
+<device name="-ALPSMXMIR--6U-FLIPPED" package="ALPSMXMIR-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE--6U-FLIPPED-ROTATED" package="MXPLATE-REVERSED-6U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR--6U-FLIPPED-ROTATED" package="ALPSMXMIR-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE--6U-ROTATED" package="MXPLATE-REVERSED-6U-ROTATED">
+<device name="-ALPSMXMIR--6U-ROTATED" package="ALPSMXMIR-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-1U" package="MXPLATE-1U">
+<device name="-ALPSMXMIR-1U" package="ALPSMXMIR-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-2U" package="MXPLATE-2U">
+<device name="-ALPSMXMIR-2U" package="ALPSMXMIR-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-2U-FLIPPED" package="MXPLATE-2U-FLIPPED">
+<device name="-ALPSMXMIR-2U-FLIPPED" package="ALPSMXMIR-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-2U-FLIPPED-ROTATED" package="MXPLATE-2U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR-2U-FLIPPED-ROTATED" package="ALPSMXMIR-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-2U-ROTATED" package="MXPLATE-2U-ROTATED">
+<device name="-ALPSMXMIR-2U-ROTATED" package="ALPSMXMIR-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-4U" package="MXPLATE-4U">
+<device name="-ALPSMXMIR-4U" package="ALPSMXMIR-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-4U-FLIPPED" package="MXPLATE-4U-FLIPPED">
+<device name="-ALPSMXMIR-4U-FLIPPED" package="ALPSMXMIR-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-4U-FLIPPED-ROTATED" package="MXPLATE-4U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR-4U-FLIPPED-ROTATED" package="ALPSMXMIR-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-4U-ROTATED" package="MXPLATE-4U-ROTATED">
+<device name="-ALPSMXMIR-4U-ROTATED" package="ALPSMXMIR-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6U" package="MXPLATE-6U">
+<device name="-ALPSMXMIR-6U" package="ALPSMXMIR-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6U-FLIPPED" package="MXPLATE-6U-FLIPPED">
+<device name="-ALPSMXMIR-6U-FLIPPED" package="ALPSMXMIR-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6U-FLIPPED-ROTATED" package="MXPLATE-6U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR-6U-FLIPPED-ROTATED" package="ALPSMXMIR-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6U-ROTATED" package="MXPLATE-6U-ROTATED">
+<device name="-ALPSMXMIR-6U-ROTATED" package="ALPSMXMIR-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.25U" package="MXPLATE-6.25U">
+<device name="-ALPSMXMIR-6.25U" package="ALPSMXMIR-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.25U-FLIPPED" package="MXPLATE-6.25U-FLIPPED">
+<device name="-ALPSMXMIR-6.25U-FLIPPED" package="ALPSMXMIR-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.25U-FLIPPED-ROTATED" package="MXPLATE-6.25U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR-6.25U-FLIPPED-ROTATED" package="ALPSMXMIR-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.25U-ROTATED" package="MXPLATE-6.25U-ROTATED">
+<device name="-ALPSMXMIR-6.25U-ROTATED" package="ALPSMXMIR-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.5U" package="MXPLATE-6.5U">
+<device name="-ALPSMXMIR-6.5U" package="ALPSMXMIR-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.5U-FLIPPED" package="MXPLATE-6.5U-FLIPPED">
+<device name="-ALPSMXMIR-6.5U-FLIPPED" package="ALPSMXMIR-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.5U-FLIPPED-ROTATED" package="MXPLATE-6.5U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR-6.5U-FLIPPED-ROTATED" package="ALPSMXMIR-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-6.5U-ROTATED" package="MXPLATE-6.5U-ROTATED">
+<device name="-ALPSMXMIR-6.5U-ROTATED" package="ALPSMXMIR-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-7U" package="MXPLATE-7U">
+<device name="-ALPSMXMIR-7U" package="ALPSMXMIR-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-7U-FLIPPED" package="MXPLATE-7U-FLIPPED">
+<device name="-ALPSMXMIR-7U-FLIPPED" package="ALPSMXMIR-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-7U-FLIPPED-ROTATED" package="MXPLATE-7U-FLIPPED-ROTATED">
+<device name="-ALPSMXMIR-7U-FLIPPED-ROTATED" package="ALPSMXMIR-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-MXPLATE-7U-ROTATED" package="MXPLATE-7U-ROTATED">
+<device name="-ALPSMXMIR-7U-ROTATED" package="ALPSMXMIR-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="ALPS1 ALPS3 MX1 MX3"/>
+<connect gate="G$1" pin="P1" pad="ALPS2 ALPS4 MX2 MX4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC--6U" package="CHOC-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC--6U-FLIPPED" package="CHOC-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC--6U-FLIPPED-ROTATED" package="CHOC-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC--6U-ROTATED" package="CHOC-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-1U" package="CHOC-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-2U" package="CHOC-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-2U-FLIPPED" package="CHOC-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-2U-FLIPPED-ROTATED" package="CHOC-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-2U-ROTATED" package="CHOC-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-4U" package="CHOC-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-4U-FLIPPED" package="CHOC-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-4U-FLIPPED-ROTATED" package="CHOC-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-4U-ROTATED" package="CHOC-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6U" package="CHOC-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6U-FLIPPED" package="CHOC-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6U-FLIPPED-ROTATED" package="CHOC-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6U-ROTATED" package="CHOC-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.25U" package="CHOC-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.25U-FLIPPED" package="CHOC-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.25U-FLIPPED-ROTATED" package="CHOC-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.25U-ROTATED" package="CHOC-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.5U" package="CHOC-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.5U-FLIPPED" package="CHOC-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.5U-FLIPPED-ROTATED" package="CHOC-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-6.5U-ROTATED" package="CHOC-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-7U" package="CHOC-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-7U-FLIPPED" package="CHOC-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-7U-FLIPPED-ROTATED" package="CHOC-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOC-7U-ROTATED" package="CHOC-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX--6U" package="CHOCX-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX--6U-FLIPPED" package="CHOCX-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX--6U-FLIPPED-ROTATED" package="CHOCX-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX--6U-ROTATED" package="CHOCX-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-1U" package="CHOCX-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-2U" package="CHOCX-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-2U-FLIPPED" package="CHOCX-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-2U-FLIPPED-ROTATED" package="CHOCX-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-2U-ROTATED" package="CHOCX-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-4U" package="CHOCX-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-4U-FLIPPED" package="CHOCX-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-4U-FLIPPED-ROTATED" package="CHOCX-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-4U-ROTATED" package="CHOCX-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6U" package="CHOCX-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6U-FLIPPED" package="CHOCX-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6U-FLIPPED-ROTATED" package="CHOCX-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6U-ROTATED" package="CHOCX-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.25U" package="CHOCX-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.25U-FLIPPED" package="CHOCX-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.25U-FLIPPED-ROTATED" package="CHOCX-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.25U-ROTATED" package="CHOCX-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.5U" package="CHOCX-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.5U-FLIPPED" package="CHOCX-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.5U-FLIPPED-ROTATED" package="CHOCX-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-6.5U-ROTATED" package="CHOCX-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-7U" package="CHOCX-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-7U-FLIPPED" package="CHOCX-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-7U-FLIPPED-ROTATED" package="CHOCX-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CHOCX-7U-ROTATED" package="CHOCX-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="CHOC1 X1"/>
+<connect gate="G$1" pin="P1" pad="CHOC2 X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX--6U" package="MX-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX--6U-FLIPPED" package="MX-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX--6U-FLIPPED-ROTATED" package="MX-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX--6U-ROTATED" package="MX-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-1U" package="MX-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-2U" package="MX-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-2U-FLIPPED" package="MX-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-2U-FLIPPED-ROTATED" package="MX-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-2U-ROTATED" package="MX-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-4U" package="MX-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-4U-FLIPPED" package="MX-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-4U-FLIPPED-ROTATED" package="MX-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-4U-ROTATED" package="MX-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6U" package="MX-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6U-FLIPPED" package="MX-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6U-FLIPPED-ROTATED" package="MX-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6U-ROTATED" package="MX-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.25U" package="MX-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.25U-FLIPPED" package="MX-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.25U-FLIPPED-ROTATED" package="MX-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.25U-ROTATED" package="MX-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.5U" package="MX-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.5U-FLIPPED" package="MX-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.5U-FLIPPED-ROTATED" package="MX-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-6.5U-ROTATED" package="MX-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-7U" package="MX-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-7U-FLIPPED" package="MX-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-7U-FLIPPED-ROTATED" package="MX-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MX-7U-ROTATED" package="MX-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS--6U" package="MXHS-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS--6U-FLIPPED" package="MXHS-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS--6U-FLIPPED-ROTATED" package="MXHS-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS--6U-ROTATED" package="MXHS-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-1U" package="MXHS-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-2U" package="MXHS-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-2U-FLIPPED" package="MXHS-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-2U-FLIPPED-ROTATED" package="MXHS-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-2U-ROTATED" package="MXHS-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-4U" package="MXHS-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-4U-FLIPPED" package="MXHS-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-4U-FLIPPED-ROTATED" package="MXHS-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-4U-ROTATED" package="MXHS-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6U" package="MXHS-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6U-FLIPPED" package="MXHS-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6U-FLIPPED-ROTATED" package="MXHS-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6U-ROTATED" package="MXHS-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.25U" package="MXHS-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.25U-FLIPPED" package="MXHS-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.25U-FLIPPED-ROTATED" package="MXHS-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.25U-ROTATED" package="MXHS-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.5U" package="MXHS-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.5U-FLIPPED" package="MXHS-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.5U-FLIPPED-ROTATED" package="MXHS-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-6.5U-ROTATED" package="MXHS-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-7U" package="MXHS-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-7U-FLIPPED" package="MXHS-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-7U-FLIPPED-ROTATED" package="MXHS-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHS-7U-ROTATED" package="MXHS-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB--6U" package="MXHSPCB-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB--6U-FLIPPED" package="MXHSPCB-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB--6U-FLIPPED-ROTATED" package="MXHSPCB-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB--6U-ROTATED" package="MXHSPCB-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-1U" package="MXHSPCB-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-2U" package="MXHSPCB-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-2U-FLIPPED" package="MXHSPCB-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-2U-FLIPPED-ROTATED" package="MXHSPCB-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-2U-ROTATED" package="MXHSPCB-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-4U" package="MXHSPCB-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-4U-FLIPPED" package="MXHSPCB-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-4U-FLIPPED-ROTATED" package="MXHSPCB-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-4U-ROTATED" package="MXHSPCB-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6U" package="MXHSPCB-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6U-FLIPPED" package="MXHSPCB-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6U-FLIPPED-ROTATED" package="MXHSPCB-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6U-ROTATED" package="MXHSPCB-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.25U" package="MXHSPCB-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.25U-FLIPPED" package="MXHSPCB-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.25U-FLIPPED-ROTATED" package="MXHSPCB-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.25U-ROTATED" package="MXHSPCB-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.5U" package="MXHSPCB-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.5U-FLIPPED" package="MXHSPCB-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.5U-FLIPPED-ROTATED" package="MXHSPCB-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-6.5U-ROTATED" package="MXHSPCB-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-7U" package="MXHSPCB-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-7U-FLIPPED" package="MXHSPCB-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-7U-FLIPPED-ROTATED" package="MXHSPCB-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MXHSPCB-7U-ROTATED" package="MXHSPCB-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="MX1"/>
+<connect gate="G$1" pin="P1" pad="MX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X--6U" package="X-REVERSED-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X--6U-FLIPPED" package="X-REVERSED-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X--6U-FLIPPED-ROTATED" package="X-REVERSED-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X--6U-ROTATED" package="X-REVERSED-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-1U" package="X-1U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-2U" package="X-2U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-2U-FLIPPED" package="X-2U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-2U-FLIPPED-ROTATED" package="X-2U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-2U-ROTATED" package="X-2U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-4U" package="X-4U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-4U-FLIPPED" package="X-4U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-4U-FLIPPED-ROTATED" package="X-4U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-4U-ROTATED" package="X-4U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6U" package="X-6U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6U-FLIPPED" package="X-6U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6U-FLIPPED-ROTATED" package="X-6U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6U-ROTATED" package="X-6U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.25U" package="X-6.25U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.25U-FLIPPED" package="X-6.25U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.25U-FLIPPED-ROTATED" package="X-6.25U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.25U-ROTATED" package="X-6.25U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.5U" package="X-6.5U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.5U-FLIPPED" package="X-6.5U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.5U-FLIPPED-ROTATED" package="X-6.5U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-6.5U-ROTATED" package="X-6.5U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-7U" package="X-7U">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-7U-FLIPPED" package="X-7U-FLIPPED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-7U-FLIPPED-ROTATED" package="X-7U-FLIPPED-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-X-7U-ROTATED" package="X-7U-ROTATED">
+<connects>
+<connect gate="G$1" pin="P0" pad="X1"/>
+<connect gate="G$1" pin="P1" pad="X2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2238,6 +9785,297 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="Components">
+<description>Standard Components used in nearly every electrical design</description>
+<packages>
+<package name="SOD-323">
+<description>SOD-123 footprint</description>
+<wire x1="-1.325" y1="-1" x2="-1.325" y2="1" width="0.127" layer="51"/>
+<wire x1="1.325" y1="1" x2="1.325" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.325" y1="1.5" x2="1.325" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.325" y1="-1.5" x2="-1.325" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<smd name="C" x="1.55" y="0" dx="0.9" dy="0.95" layer="1" rot="R270"/>
+<smd name="A" x="-1.55" y="0" dx="0.9" dy="0.95" layer="1" rot="R270"/>
+<rectangle x1="1.2" y1="-0.4" x2="1.95" y2="0.45" layer="51" rot="R180"/>
+<rectangle x1="-1.95" y1="-0.4" x2="-1.2" y2="0.45" layer="51" rot="R180"/>
+<text x="0" y="1.77" size="1" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.77" size="1" layer="21" font="vector" ratio="13" align="top-center">&gt;VALUE</text>
+<text x="2.25" y="0" size="0.75" layer="21" align="center-left">K</text>
+</package>
+<package name="DO-35">
+<pad name="A" x="4.82" y="0" drill="1" diameter="2" shape="square"/>
+<pad name="C" x="-4.82" y="0" drill="1" diameter="2"/>
+<wire x1="-3.683" y1="-1.27" x2="-3.683" y2="1.27" width="0.2" layer="21"/>
+<wire x1="3.683" y1="1.27" x2="3.683" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="-3.683" y1="1.27" x2="3.683" y2="1.27" width="0.2" layer="21"/>
+<wire x1="3.683" y1="-1.27" x2="-3.683" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="1.5" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
+<wire x1="3" y1="1.25" x2="3" y2="-1.25" width="0.2" layer="21"/>
+</package>
+<package name="DIODE_HAND">
+<pad name="C2" x="3.5" y="0" drill="1" diameter="1.9" shape="square"/>
+<pad name="A2" x="-3.5" y="0" drill="1" diameter="1.9"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
+<smd name="C1" x="1.651" y="0" dx="1.397" dy="1.397" layer="1" rot="R180"/>
+<smd name="A1" x="-1.651" y="0" dx="1.397" dy="1.397" layer="1" rot="R180"/>
+<smd name="A3" x="-1.651" y="0" dx="1.397" dy="1.397" layer="16"/>
+<smd name="C3" x="1.651" y="0" dx="1.397" dy="1.397" layer="16"/>
+<wire x1="2.6" y1="0.8" x2="2.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2.6" y1="0.8" x2="2.6" y2="-0.8" width="0.127" layer="22"/>
+<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.25" layer="22"/>
+<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.25" layer="21"/>
+<wire x1="2.5" y1="1" x2="-2.5" y2="1" width="0.25" layer="21"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.25" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.25" layer="21"/>
+<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.25" layer="22"/>
+<wire x1="2.5" y1="-1" x2="-2.5" y2="-1" width="0.25" layer="22"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.25" layer="22"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.635" x2="-0.381" y2="0.508" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.508" x2="-0.381" y2="0.381" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.381" x2="-0.381" y2="-0.635" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="-0.635" x2="0.381" y2="0" width="0.127" layer="22"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="0.508" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.508" x2="-0.254" y2="-0.508" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="-0.508" x2="0.254" y2="0" width="0.127" layer="22"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="0.381" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.381" x2="-0.254" y2="-0.381" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="-0.381" x2="0.127" y2="0" width="0.127" layer="22"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="0.254" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="0.254" x2="-0.254" y2="0.127" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="0.127" x2="-0.254" y2="-0.254" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.127" y2="-0.127" width="0.127" layer="22"/>
+<wire x1="-0.127" y1="-0.127" x2="0" y2="0" width="0.127" layer="22"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0.127" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="0.127" x2="-0.127" y2="-0.127" width="0.127" layer="22"/>
+<wire x1="-0.127" y1="-0.127" x2="-0.127" y2="0" width="0.127" layer="22"/>
+</package>
+<package name="SOD-123FL">
+<description>SOD-123 footprint</description>
+<wire x1="1.35" y1="-0.875" x2="-1.35" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="0.875" x2="1.35" y2="0.875" width="0.127" layer="21"/>
+<wire x1="0.284" y1="0" x2="1.046" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.046" y1="0.635" x2="1.046" y2="0.508" width="0.127" layer="21"/>
+<wire x1="1.046" y1="0.508" x2="1.046" y2="0.381" width="0.127" layer="21"/>
+<wire x1="1.046" y1="0.381" x2="1.046" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.046" y1="-0.635" x2="0.284" y2="0" width="0.127" layer="21"/>
+<wire x1="0.284" y1="0" x2="1.046" y2="0.508" width="0.127" layer="21"/>
+<wire x1="1.046" y1="0.508" x2="0.919" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="0.919" y1="-0.508" x2="0.411" y2="0" width="0.127" layer="21"/>
+<wire x1="0.411" y1="0" x2="1.046" y2="0.381" width="0.127" layer="21"/>
+<wire x1="1.046" y1="0.381" x2="0.919" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="0.919" y1="-0.381" x2="0.538" y2="0" width="0.127" layer="21"/>
+<wire x1="0.538" y1="0" x2="0.919" y2="0.254" width="0.127" layer="21"/>
+<wire x1="0.919" y1="0.254" x2="0.919" y2="0.127" width="0.127" layer="21"/>
+<wire x1="0.919" y1="0.127" x2="0.919" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.919" y1="-0.254" x2="0.792" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.792" y1="-0.127" x2="0.665" y2="0" width="0.127" layer="21"/>
+<wire x1="0.665" y1="0" x2="0.919" y2="0.127" width="0.127" layer="21"/>
+<wire x1="0.919" y1="0.127" x2="0.792" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.792" y1="-0.127" x2="0.792" y2="0" width="0.127" layer="21"/>
+<smd name="C@1" x="-1.67" y="0" dx="0.85" dy="0.85" layer="1"/>
+<smd name="A" x="1.67" y="0" dx="0.85" dy="0.85" layer="1"/>
+<text x="0" y="1" size="1" layer="21" font="vector" rot="R180" align="top-center">&gt;NAME</text>
+<text x="0" y="-1" size="1" layer="21" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<smd name="C@2" x="-0.585" y="0" dx="1.32" dy="1.12" layer="1" rot="R180"/>
+</package>
+<package name="DFN0603-2">
+<description>DFN0603-2</description>
+<wire x1="0.305" y1="-0.25" x2="-0.305" y2="-0.25" width="0.1" layer="21"/>
+<wire x1="-0.305" y1="0.25" x2="0.305" y2="0.25" width="0.1" layer="21"/>
+<smd name="C" x="-0.19" y="0" dx="0.23" dy="0.3" layer="1"/>
+<smd name="A" x="0.19" y="0" dx="0.23" dy="0.3" layer="1"/>
+<text x="0" y="0.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="top-center">&gt;NAME</text>
+<text x="-0.635" y="0" size="0.75" layer="21" font="vector" ratio="13" align="center-right">K</text>
+</package>
+<package name="CST-2">
+<description>DFN0603-2</description>
+<wire x1="0.5" y1="-0.35" x2="-0.5" y2="-0.35" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0.35" x2="0.5" y2="0.35" width="0.1" layer="21"/>
+<smd name="C" x="-0.325" y="0" dx="0.3" dy="0.55" layer="1"/>
+<smd name="A" x="0.325" y="0" dx="0.3" dy="0.55" layer="1"/>
+<text x="0" y="0.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="top-center">&gt;NAME</text>
+<text x="-0.635" y="0" size="0.75" layer="21" font="vector" ratio="13" align="center-right">K</text>
+</package>
+<package name="SOD-123">
+<description>SOD-123 footprint</description>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<smd name="C" x="1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="A" x="-1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<text x="0" y="1" size="1" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="1" layer="21" font="vector" ratio="13" align="top-center">&gt;VALUE</text>
+<text x="2.5" y="0" size="0.75" layer="21" align="center-left">K</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.3114" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.5654" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>Standard 1N4148 diode</description>
+<gates>
+<gate name="D$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SOD-323" package="SOD-323">
+<connects>
+<connect gate="D$1" pin="A" pad="A"/>
+<connect gate="D$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DO-35" package="DO-35">
+<connects>
+<connect gate="D$1" pin="A" pad="A"/>
+<connect gate="D$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="1N4148" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HAND" package="DIODE_HAND">
+<connects>
+<connect gate="D$1" pin="A" pad="A1 A2 A3"/>
+<connect gate="D$1" pin="C" pad="C1 C2 C3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOD-123FL" package="SOD-123FL">
+<connects>
+<connect gate="D$1" pin="A" pad="A"/>
+<connect gate="D$1" pin="C" pad="C@1 C@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DFN0603-2" package="DFN0603-2">
+<connects>
+<connect gate="D$1" pin="A" pad="A"/>
+<connect gate="D$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CST-2" package="CST-2">
+<connects>
+<connect gate="D$1" pin="A" pad="A"/>
+<connect gate="D$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOD-123" package="SOD-123">
+<connects>
+<connect gate="D$1" pin="A" pad="A"/>
+<connect gate="D$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2252,25 +10090,42 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$1" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$2" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$3" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$4" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$5" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$6" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$7" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$8" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$9" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$10" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$11" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$12" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$13" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$14" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-1U"/>
-<part name="U$15" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-2U"/>
-<part name="U$16" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-2U-ROTATED"/>
-<part name="U$17" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-2U-ROTATED"/>
 <part name="SW1" library="Hardware" deviceset="SWITCH-SMD" device="-SCHURTER-1241.1612.11"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D1" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D2" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D3" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D4" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D5" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D6" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D7" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D8" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D9" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D10" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D11" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D12" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D13" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D14" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D15" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D16" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="D17" library="Components" deviceset="DIODE" device="-HAND"/>
+<part name="U$19" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$20" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$21" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$22" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$23" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$24" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$25" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$26" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$27" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$28" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$29" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$30" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$31" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$32" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U$1" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U"/>
+<part name="U$2" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-ROTATED"/>
+<part name="U$3" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-ROTATED"/>
 </parts>
 <sheets>
 <sheet>
@@ -2290,62 +10145,130 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY3" gate="GND" x="38.1" y="30.48" smashed="yes" rot="R270">
 <attribute name="VALUE" x="34.925" y="32.385" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$1" gate="G$1" x="172.72" y="38.1" smashed="yes">
-<attribute name="NAME" x="165.91" y="43.418" size="1" layer="95"/>
-</instance>
-<instance part="U$2" gate="G$1" x="210.82" y="38.1" smashed="yes">
-<attribute name="NAME" x="204.01" y="43.418" size="1" layer="95"/>
-</instance>
-<instance part="U$3" gate="G$1" x="251.46" y="38.1" smashed="yes">
-<attribute name="NAME" x="244.65" y="43.418" size="1" layer="95"/>
-</instance>
-<instance part="U$4" gate="G$1" x="289.56" y="38.1" smashed="yes">
-<attribute name="NAME" x="282.75" y="43.418" size="1" layer="95"/>
-</instance>
-<instance part="U$5" gate="G$1" x="170.18" y="5.08" smashed="yes">
-<attribute name="NAME" x="163.37" y="10.398" size="1" layer="95"/>
-</instance>
-<instance part="U$6" gate="G$1" x="213.36" y="2.54" smashed="yes">
-<attribute name="NAME" x="206.55" y="7.858" size="1" layer="95"/>
-</instance>
-<instance part="U$7" gate="G$1" x="254" y="2.54" smashed="yes">
-<attribute name="NAME" x="247.19" y="7.858" size="1" layer="95"/>
-</instance>
-<instance part="U$8" gate="G$1" x="170.18" y="-38.1" smashed="yes">
-<attribute name="NAME" x="163.37" y="-32.782" size="1" layer="95"/>
-</instance>
-<instance part="U$9" gate="G$1" x="218.44" y="-40.64" smashed="yes">
-<attribute name="NAME" x="211.63" y="-35.322" size="1" layer="95"/>
-</instance>
-<instance part="U$10" gate="G$1" x="256.54" y="-40.64" smashed="yes">
-<attribute name="NAME" x="249.73" y="-35.322" size="1" layer="95"/>
-</instance>
-<instance part="U$11" gate="G$1" x="172.72" y="-71.12" smashed="yes">
-<attribute name="NAME" x="165.91" y="-65.802" size="1" layer="95"/>
-</instance>
-<instance part="U$12" gate="G$1" x="218.44" y="-76.2" smashed="yes">
-<attribute name="NAME" x="211.63" y="-70.882" size="1" layer="95"/>
-</instance>
-<instance part="U$13" gate="G$1" x="261.62" y="-76.2" smashed="yes">
-<attribute name="NAME" x="254.81" y="-70.882" size="1" layer="95"/>
-</instance>
-<instance part="U$14" gate="G$1" x="264.16" y="-109.22" smashed="yes">
-<attribute name="NAME" x="257.35" y="-103.902" size="1" layer="95"/>
-</instance>
-<instance part="U$15" gate="G$1" x="195.58" y="-106.68" smashed="yes">
-<attribute name="NAME" x="188.77" y="-101.362" size="1" layer="95"/>
-</instance>
-<instance part="U$16" gate="G$1" x="292.1" y="-17.78" smashed="yes">
-<attribute name="NAME" x="285.29" y="-12.462" size="1" layer="95"/>
-</instance>
-<instance part="U$17" gate="G$1" x="302.26" y="-93.98" smashed="yes">
-<attribute name="NAME" x="295.45" y="-88.662" size="1" layer="95"/>
-</instance>
 <instance part="SW1" gate="G$1" x="116.84" y="27.94" smashed="yes">
 <attribute name="NAME" x="116.84" y="25.654" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="129.54" y="27.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="132.715" y="26.035" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D1" gate="D$1" x="172.72" y="22.86" smashed="yes">
+<attribute name="NAME" x="170.4086" y="25.5016" size="1.778" layer="95"/>
+<attribute name="VALUE" x="170.1546" y="18.3642" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="D$1" x="215.9" y="20.32" smashed="yes">
+<attribute name="NAME" x="213.5886" y="22.9616" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.3346" y="15.8242" size="1.778" layer="96"/>
+</instance>
+<instance part="D3" gate="D$1" x="251.46" y="20.32" smashed="yes">
+<attribute name="NAME" x="249.1486" y="22.9616" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.8946" y="15.8242" size="1.778" layer="96"/>
+</instance>
+<instance part="D4" gate="D$1" x="292.1" y="17.78" smashed="yes">
+<attribute name="NAME" x="289.7886" y="20.4216" size="1.778" layer="95"/>
+<attribute name="VALUE" x="289.5346" y="13.2842" size="1.778" layer="96"/>
+</instance>
+<instance part="D5" gate="D$1" x="172.72" y="-15.24" smashed="yes">
+<attribute name="NAME" x="170.4086" y="-12.5984" size="1.778" layer="95"/>
+<attribute name="VALUE" x="170.1546" y="-19.7358" size="1.778" layer="96"/>
+</instance>
+<instance part="D6" gate="D$1" x="215.9" y="-17.78" smashed="yes">
+<attribute name="NAME" x="213.5886" y="-15.1384" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.3346" y="-22.2758" size="1.778" layer="96"/>
+</instance>
+<instance part="D7" gate="D$1" x="248.92" y="-15.24" smashed="yes">
+<attribute name="NAME" x="246.6086" y="-12.5984" size="1.778" layer="95"/>
+<attribute name="VALUE" x="246.3546" y="-19.7358" size="1.778" layer="96"/>
+</instance>
+<instance part="D8" gate="D$1" x="294.64" y="-43.18" smashed="yes">
+<attribute name="NAME" x="292.3286" y="-40.5384" size="1.778" layer="95"/>
+<attribute name="VALUE" x="292.0746" y="-47.6758" size="1.778" layer="96"/>
+</instance>
+<instance part="D9" gate="D$1" x="254" y="-58.42" smashed="yes">
+<attribute name="NAME" x="251.6886" y="-55.7784" size="1.778" layer="95"/>
+<attribute name="VALUE" x="251.4346" y="-62.9158" size="1.778" layer="96"/>
+</instance>
+<instance part="D10" gate="D$1" x="213.36" y="-58.42" smashed="yes">
+<attribute name="NAME" x="211.0486" y="-55.7784" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.7946" y="-62.9158" size="1.778" layer="96"/>
+</instance>
+<instance part="D11" gate="D$1" x="167.64" y="-55.88" smashed="yes">
+<attribute name="NAME" x="165.3286" y="-53.2384" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.0746" y="-60.3758" size="1.778" layer="96"/>
+</instance>
+<instance part="D12" gate="D$1" x="172.72" y="-91.44" smashed="yes">
+<attribute name="NAME" x="170.4086" y="-88.7984" size="1.778" layer="95"/>
+<attribute name="VALUE" x="170.1546" y="-95.9358" size="1.778" layer="96"/>
+</instance>
+<instance part="D13" gate="D$1" x="220.98" y="-91.44" smashed="yes">
+<attribute name="NAME" x="218.6686" y="-88.7984" size="1.778" layer="95"/>
+<attribute name="VALUE" x="218.4146" y="-95.9358" size="1.778" layer="96"/>
+</instance>
+<instance part="D14" gate="D$1" x="269.24" y="-93.98" smashed="yes">
+<attribute name="NAME" x="266.9286" y="-91.3384" size="1.778" layer="95"/>
+<attribute name="VALUE" x="266.6746" y="-98.4758" size="1.778" layer="96"/>
+</instance>
+<instance part="D15" gate="D$1" x="307.34" y="-111.76" smashed="yes">
+<attribute name="NAME" x="305.0286" y="-109.1184" size="1.778" layer="95"/>
+<attribute name="VALUE" x="304.7746" y="-116.2558" size="1.778" layer="96"/>
+</instance>
+<instance part="D16" gate="D$1" x="266.7" y="-137.16" smashed="yes">
+<attribute name="NAME" x="264.3886" y="-134.5184" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.1346" y="-141.6558" size="1.778" layer="96"/>
+</instance>
+<instance part="D17" gate="D$1" x="190.5" y="-132.08" smashed="yes">
+<attribute name="NAME" x="188.1886" y="-129.4384" size="1.778" layer="95"/>
+<attribute name="VALUE" x="187.9346" y="-136.5758" size="1.778" layer="96"/>
+</instance>
+<instance part="U$19" gate="G$1" x="172.72" y="55.88" smashed="yes">
+<attribute name="NAME" x="165.91" y="61.198" size="1" layer="95"/>
+</instance>
+<instance part="U$20" gate="G$1" x="210.82" y="55.88" smashed="yes">
+<attribute name="NAME" x="204.01" y="61.198" size="1" layer="95"/>
+</instance>
+<instance part="U$21" gate="G$1" x="251.46" y="55.88" smashed="yes">
+<attribute name="NAME" x="244.65" y="61.198" size="1" layer="95"/>
+</instance>
+<instance part="U$22" gate="G$1" x="289.56" y="55.88" smashed="yes">
+<attribute name="NAME" x="282.75" y="61.198" size="1" layer="95"/>
+</instance>
+<instance part="U$23" gate="G$1" x="170.18" y="12.7" smashed="yes">
+<attribute name="NAME" x="163.37" y="18.018" size="1" layer="95"/>
+</instance>
+<instance part="U$24" gate="G$1" x="213.36" y="12.7" smashed="yes">
+<attribute name="NAME" x="206.55" y="18.018" size="1" layer="95"/>
+</instance>
+<instance part="U$25" gate="G$1" x="254" y="12.7" smashed="yes">
+<attribute name="NAME" x="247.19" y="18.018" size="1" layer="95"/>
+</instance>
+<instance part="U$26" gate="G$1" x="256.54" y="-30.48" smashed="yes">
+<attribute name="NAME" x="249.73" y="-25.162" size="1" layer="95"/>
+</instance>
+<instance part="U$27" gate="G$1" x="218.44" y="-33.02" smashed="yes">
+<attribute name="NAME" x="211.63" y="-27.702" size="1" layer="95"/>
+</instance>
+<instance part="U$28" gate="G$1" x="170.18" y="-30.48" smashed="yes">
+<attribute name="NAME" x="163.37" y="-25.162" size="1" layer="95"/>
+</instance>
+<instance part="U$29" gate="G$1" x="172.72" y="-66.04" smashed="yes">
+<attribute name="NAME" x="165.91" y="-60.722" size="1" layer="95"/>
+</instance>
+<instance part="U$30" gate="G$1" x="218.44" y="-68.58" smashed="yes">
+<attribute name="NAME" x="211.63" y="-63.262" size="1" layer="95"/>
+</instance>
+<instance part="U$31" gate="G$1" x="261.62" y="-68.58" smashed="yes">
+<attribute name="NAME" x="254.81" y="-63.262" size="1" layer="95"/>
+</instance>
+<instance part="U$32" gate="G$1" x="264.16" y="-104.14" smashed="yes">
+<attribute name="NAME" x="257.35" y="-98.822" size="1" layer="95"/>
+</instance>
+<instance part="U$1" gate="G$1" x="187.96" y="-111.76" smashed="yes">
+<attribute name="NAME" x="181.15" y="-106.442" size="1" layer="95"/>
+</instance>
+<instance part="U$2" gate="G$1" x="292.1" y="-17.78" smashed="yes">
+<attribute name="NAME" x="285.29" y="-12.462" size="1" layer="95"/>
+</instance>
+<instance part="U$3" gate="G$1" x="302.26" y="-86.36" smashed="yes">
+<attribute name="NAME" x="295.45" y="-81.042" size="1" layer="95"/>
 </instance>
 </instances>
 <busses>

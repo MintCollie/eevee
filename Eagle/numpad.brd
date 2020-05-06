@@ -836,38 +836,53 @@
 <library name="Keyboard">
 <description>Keyboard Keyswitch PCB footprints for MX and Alps switches.</description>
 <packages>
-<package name="MXPLATE-1U">
+<package name="MX-1U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-2U">
+<package name="MX-2U">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="-11.9" y="7" drill="3.05"/>
 <hole x="11.9" y="7" drill="3.05"/>
 <hole x="-11.9" y="-8.24" drill="4"/>
 <hole x="11.9" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MXPLATE-2U-ROTATED">
+<package name="MX-2U-ROTATED">
 <description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0" layer="20"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0" layer="20"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0" layer="20"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0" layer="20"/>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <hole x="7" y="-11.9" drill="3.05"/>
 <hole x="7" y="11.9" drill="3.05"/>
 <hole x="-8.24" y="-11.9" drill="4"/>
 <hole x="-8.24" y="11.9" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
@@ -945,6 +960,69 @@
 <smd name="1A" x="-7" y="-3.75" dx="3" dy="2" layer="1"/>
 <smd name="1B" x="7" y="-3.75" dx="3" dy="2" layer="1"/>
 <smd name="2B" x="7" y="3.75" dx="3" dy="2" layer="1"/>
+</package>
+</packages>
+</library>
+<library name="Components">
+<description>Standard Components used in nearly every electrical design</description>
+<packages>
+<package name="DIODE_HAND">
+<pad name="C2" x="3.5" y="0" drill="1" diameter="1.9" shape="square"/>
+<pad name="A2" x="-3.5" y="0" drill="1" diameter="1.9"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
+<smd name="C1" x="1.651" y="0" dx="1.397" dy="1.397" layer="1" rot="R180"/>
+<smd name="A1" x="-1.651" y="0" dx="1.397" dy="1.397" layer="1" rot="R180"/>
+<smd name="A3" x="-1.651" y="0" dx="1.397" dy="1.397" layer="16"/>
+<smd name="C3" x="1.651" y="0" dx="1.397" dy="1.397" layer="16"/>
+<wire x1="2.6" y1="0.8" x2="2.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2.6" y1="0.8" x2="2.6" y2="-0.8" width="0.127" layer="22"/>
+<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.25" layer="22"/>
+<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.25" layer="21"/>
+<wire x1="2.5" y1="1" x2="-2.5" y2="1" width="0.25" layer="21"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.25" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.25" layer="21"/>
+<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.25" layer="22"/>
+<wire x1="2.5" y1="-1" x2="-2.5" y2="-1" width="0.25" layer="22"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.25" layer="22"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.635" x2="-0.381" y2="0.508" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.508" x2="-0.381" y2="0.381" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.381" x2="-0.381" y2="-0.635" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="-0.635" x2="0.381" y2="0" width="0.127" layer="22"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="0.508" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.508" x2="-0.254" y2="-0.508" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="-0.508" x2="0.254" y2="0" width="0.127" layer="22"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="0.381" width="0.127" layer="22"/>
+<wire x1="-0.381" y1="0.381" x2="-0.254" y2="-0.381" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="-0.381" x2="0.127" y2="0" width="0.127" layer="22"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="0.254" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="0.254" x2="-0.254" y2="0.127" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="0.127" x2="-0.254" y2="-0.254" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.127" y2="-0.127" width="0.127" layer="22"/>
+<wire x1="-0.127" y1="-0.127" x2="0" y2="0" width="0.127" layer="22"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0.127" width="0.127" layer="22"/>
+<wire x1="-0.254" y1="0.127" x2="-0.127" y2="-0.127" width="0.127" layer="22"/>
+<wire x1="-0.127" y1="-0.127" x2="-0.127" y2="0" width="0.127" layer="22"/>
 </package>
 </packages>
 </library>
@@ -1141,80 +1219,148 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="37" y="37" smashed="yes">
-<attribute name="NAME" x="37" y="34.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="37" y="34.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$10" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="18" y="56" smashed="yes">
-<attribute name="NAME" x="18" y="53.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="18" y="53.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$11" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="18" y="75" smashed="yes">
-<attribute name="NAME" x="18" y="72.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="18" y="72.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$12" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="56" y="75" smashed="yes">
-<attribute name="NAME" x="56" y="72.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="56" y="72.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$13" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="37" y="94" smashed="yes">
-<attribute name="NAME" x="37" y="91.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="37" y="91.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$14" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="18" y="94" smashed="yes">
-<attribute name="NAME" x="18" y="91.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="18" y="91.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$15" library="Keyboard" package="MXPLATE-2U" value="KEYSWITCH-PLATE-MXPLATE-2U" x="27.5676125" y="17.815084375" smashed="yes">
-<attribute name="NAME" x="27.5676125" y="15.015084375" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="27.5676125" y="15.015084375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$16" library="Keyboard" package="MXPLATE-2U-ROTATED" value="KEYSWITCH-PLATE-MXPLATE-2U-ROTATED" x="75.15291875" y="27.347471875" smashed="yes">
-<attribute name="NAME" x="75.15291875" y="24.547471875" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="75.15291875" y="24.547471875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$17" library="Keyboard" package="MXPLATE-2U-ROTATED" value="KEYSWITCH-PLATE-MXPLATE-2U-ROTATED" x="75.15630625" y="65.4679" smashed="yes" rot="MR0">
-<attribute name="NAME" x="75.15630625" y="62.6679" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-<attribute name="NAME" x="75.15630625" y="62.6679" size="1" layer="21" font="vector" ratio="13" align="center"/>
-</element>
-<element name="U$2" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="18" y="37" smashed="yes">
-<attribute name="NAME" x="18" y="34.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="18" y="34.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$3" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="56.113275" y="17.867828125" smashed="yes">
-<attribute name="NAME" x="56.113275" y="15.067828125" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="56.113275" y="15.067828125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$4" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="37" y="75" smashed="yes">
-<attribute name="NAME" x="37" y="72.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="37" y="72.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$5" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="56" y="56" smashed="yes">
-<attribute name="NAME" x="56" y="53.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="56" y="53.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$6" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="56" y="94" smashed="yes">
-<attribute name="NAME" x="56" y="91.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="56" y="91.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$7" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="56.113275" y="36.886709375" smashed="yes">
-<attribute name="NAME" x="56.113275" y="34.086709375" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="56.113275" y="34.086709375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$8" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="75" y="94" smashed="yes">
-<attribute name="NAME" x="75" y="91.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="75" y="91.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$9" library="Keyboard" package="MXPLATE-1U" value="KEYSWITCH-PLATE-MXPLATE-1U" x="37" y="56" smashed="yes">
-<attribute name="NAME" x="37" y="53.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="37" y="53.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
 <element name="U1" library="MCU" package="PROMICRO" value="PROMICRO" x="26.815996875" y="77.835503125" smashed="yes">
 <attribute name="NAME" x="17.315996875" y="62.585503125" size="1.27" layer="25" ratio="13" rot="R90"/>
 <attribute name="VALUE" x="36.065996875" y="62.585503125" size="1.27" layer="27" ratio="13" rot="R90" align="top-left"/>
 </element>
 <element name="SW1" library="Hardware" package="SWITCH-SMD-SCHURTER-1241.1612.11" value="SWITCH-SMD-SCHURTER-1241.1612.11" x="118" y="79" smashed="yes">
 <attribute name="NAME" x="118" y="72.625" size="1.27" layer="21" font="vector" align="bottom-center"/>
+</element>
+<element name="D1" library="Components" package="DIODE_HAND" value="" x="6" y="-4" smashed="yes">
+<attribute name="NAME" x="6" y="-2.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-5.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D2" library="Components" package="DIODE_HAND" value="" x="6" y="-10" smashed="yes">
+<attribute name="NAME" x="6" y="-8.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-11.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D3" library="Components" package="DIODE_HAND" value="" x="6" y="-16" smashed="yes">
+<attribute name="NAME" x="6" y="-14.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-17.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D4" library="Components" package="DIODE_HAND" value="" x="6" y="-22" smashed="yes">
+<attribute name="NAME" x="6" y="-20.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-23.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D5" library="Components" package="DIODE_HAND" value="" x="6" y="-28" smashed="yes">
+<attribute name="NAME" x="6" y="-26.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-29.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D6" library="Components" package="DIODE_HAND" value="" x="6" y="-34" smashed="yes">
+<attribute name="NAME" x="6" y="-32.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-35.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D7" library="Components" package="DIODE_HAND" value="" x="6" y="-40" smashed="yes">
+<attribute name="NAME" x="6" y="-38.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-41.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D8" library="Components" package="DIODE_HAND" value="" x="6" y="-46" smashed="yes">
+<attribute name="NAME" x="6" y="-44.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-47.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D9" library="Components" package="DIODE_HAND" value="" x="6" y="-52" smashed="yes">
+<attribute name="NAME" x="6" y="-50.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-53.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D10" library="Components" package="DIODE_HAND" value="" x="6" y="-58" smashed="yes">
+<attribute name="NAME" x="6" y="-56.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-59.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D11" library="Components" package="DIODE_HAND" value="" x="6" y="-64" smashed="yes">
+<attribute name="NAME" x="6" y="-62.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-65.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D12" library="Components" package="DIODE_HAND" value="" x="6" y="-70" smashed="yes">
+<attribute name="NAME" x="6" y="-68.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-71.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D13" library="Components" package="DIODE_HAND" value="" x="6" y="-76" smashed="yes">
+<attribute name="NAME" x="6" y="-74.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-77.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D14" library="Components" package="DIODE_HAND" value="" x="6" y="-82" smashed="yes">
+<attribute name="NAME" x="6" y="-80.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-83.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D15" library="Components" package="DIODE_HAND" value="" x="6" y="-88" smashed="yes">
+<attribute name="NAME" x="6" y="-86.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-89.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D16" library="Components" package="DIODE_HAND" value="" x="6" y="-94" smashed="yes">
+<attribute name="NAME" x="6" y="-92.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-95.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D17" library="Components" package="DIODE_HAND" value="" x="6" y="-100" smashed="yes">
+<attribute name="NAME" x="6" y="-98.095" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="6" y="-101.905" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="U$19" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-124" smashed="yes">
+<attribute name="NAME" x="8" y="-126.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-126.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$20" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-139" smashed="yes">
+<attribute name="NAME" x="8" y="-141.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-141.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$21" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-154" smashed="yes">
+<attribute name="NAME" x="8" y="-156.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-156.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$22" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-169" smashed="yes">
+<attribute name="NAME" x="8" y="-171.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-171.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$23" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-184" smashed="yes">
+<attribute name="NAME" x="8" y="-186.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-186.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$24" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-199" smashed="yes">
+<attribute name="NAME" x="8" y="-201.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-201.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$25" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-214" smashed="yes">
+<attribute name="NAME" x="8" y="-216.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-216.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$26" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-229" smashed="yes">
+<attribute name="NAME" x="8" y="-231.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-231.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$27" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-244" smashed="yes">
+<attribute name="NAME" x="8" y="-246.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-246.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$28" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-259" smashed="yes">
+<attribute name="NAME" x="8" y="-261.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-261.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$29" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-274" smashed="yes">
+<attribute name="NAME" x="8" y="-276.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-276.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$30" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-289" smashed="yes">
+<attribute name="NAME" x="8" y="-291.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-291.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$31" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-304" smashed="yes">
+<attribute name="NAME" x="8" y="-306.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-306.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$32" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-319" smashed="yes">
+<attribute name="NAME" x="8" y="-321.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="8" y="-321.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$1" library="Keyboard" package="MX-2U" value="KEYSWITCH-PLAIN-MX-2U" x="15" y="-335" smashed="yes">
+<attribute name="NAME" x="15" y="-337.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="15" y="-337.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$2" library="Keyboard" package="MX-2U-ROTATED" value="KEYSWITCH-PLAIN-MX-2U-ROTATED" x="-9" y="-331" smashed="yes">
+<attribute name="NAME" x="-9" y="-333.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-9" y="-333.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="U$3" library="Keyboard" package="MX-2U-ROTATED" value="KEYSWITCH-PLAIN-MX-2U-ROTATED" x="-28" y="-331" smashed="yes">
+<attribute name="NAME" x="-28" y="-333.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-28" y="-333.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>

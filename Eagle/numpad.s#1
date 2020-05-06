@@ -2135,6 +2135,109 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="Hardware">
+<packages>
+<package name="SWITCH-SMD-EVQP-P2602W">
+<description>Panasonic EVQ-P2602W SMD pushbutton</description>
+<polygon width="0.127" layer="39">
+<vertex x="-2.75" y="1.75"/>
+<vertex x="-2.75" y="-1.75"/>
+<vertex x="2.75" y="-1.75"/>
+<vertex x="2.75" y="1.75"/>
+</polygon>
+<wire x1="-2.75" y1="1.75" x2="-2.75" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-2.75" y1="-1.75" x2="2.75" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-1.75" x2="2.75" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.75" y1="1.75" x2="-2.75" y2="1.75" width="0.127" layer="21"/>
+<text x="0" y="-3.2" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<smd name="2A" x="-2.57" y="1" dx="1.45" dy="0.7" layer="1"/>
+<smd name="1A" x="-2.57" y="-1" dx="1.45" dy="0.7" layer="1"/>
+<smd name="1B" x="2.57" y="-1" dx="1.45" dy="0.7" layer="1"/>
+<smd name="2B" x="2.57" y="1" dx="1.45" dy="0.7" layer="1"/>
+</package>
+<package name="SWITCH-SMD-SCHURTER-1241.1612.11">
+<description>Panasonic EVQ-P2602W SMD pushbutton</description>
+<polygon width="0.127" layer="39">
+<vertex x="-5.925" y="4.925"/>
+<vertex x="-5.925" y="-4.925"/>
+<vertex x="5.925" y="-4.925"/>
+<vertex x="5.925" y="4.925"/>
+</polygon>
+<wire x1="-5.925" y1="4.925" x2="-5.925" y2="-4.925" width="0.127" layer="21"/>
+<wire x1="-5.925" y1="-4.925" x2="5.925" y2="-4.925" width="0.127" layer="21"/>
+<wire x1="5.925" y1="-4.925" x2="5.925" y2="4.925" width="0.127" layer="21"/>
+<wire x1="5.925" y1="4.925" x2="-5.925" y2="4.925" width="0.127" layer="21"/>
+<text x="0" y="-6.375" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<smd name="2A" x="-7" y="3.75" dx="3" dy="2" layer="1"/>
+<smd name="1A" x="-7" y="-3.75" dx="3" dy="2" layer="1"/>
+<smd name="1B" x="7" y="-3.75" dx="3" dy="2" layer="1"/>
+<smd name="2B" x="7" y="3.75" dx="3" dy="2" layer="1"/>
+</package>
+<package name="SWITCH-SMD-EVP-BB2A9B00">
+<description>Panasonic EVP-BB2A9800 SMD pushbutton</description>
+<polygon width="0.127" layer="39">
+<vertex x="-1" y="0.8"/>
+<vertex x="-1" y="-0.8"/>
+<vertex x="1" y="-0.8"/>
+<vertex x="1" y="0.8"/>
+</polygon>
+<wire x1="-1.05" y1="0.8" x2="-1.05" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-0.8" x2="1.05" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-0.8" x2="1.05" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.8" x2="-1.05" y2="0.8" width="0.127" layer="21"/>
+<text x="0" y="-2.4" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<smd name="A@1" x="-1.6" y="0.6" dx="0.95" dy="0.55" layer="1"/>
+<smd name="A@2" x="-1.6" y="-0.6" dx="0.95" dy="0.55" layer="1"/>
+<smd name="B@4" x="1.6" y="-0.6" dx="0.95" dy="0.55" layer="1"/>
+<smd name="B@3" x="1.6" y="0.6" dx="0.95" dy="0.55" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SWITCH">
+<description>A basic Alps or Cherry MX switch</description>
+<text x="0" y="-2.286" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH-SMD" prefix="SW">
+<gates>
+<gate name="G$1" symbol="SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EVQP-P2602W" package="SWITCH-SMD-EVQP-P2602W">
+<connects>
+<connect gate="G$1" pin="1" pad="1A 1B"/>
+<connect gate="G$1" pin="2" pad="2A 2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SCHURTER-1241.1612.11" package="SWITCH-SMD-SCHURTER-1241.1612.11">
+<connects>
+<connect gate="G$1" pin="1" pad="1A 1B"/>
+<connect gate="G$1" pin="2" pad="2A 2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-EVP-BB2A9B00" package="SWITCH-SMD-EVP-BB2A9B00">
+<connects>
+<connect gate="G$1" pin="1" pad="A@1 A@2"/>
+<connect gate="G$1" pin="2" pad="B@3 B@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2166,6 +2269,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$15" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-2U"/>
 <part name="U$16" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-2U-ROTATED"/>
 <part name="U$17" library="Keyboard" deviceset="KEYSWITCH-PLATE" device="-MXPLATE-2U-ROTATED"/>
+<part name="SW1" library="Hardware" deviceset="SWITCH-SMD" device="-SCHURTER-1241.1612.11"/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2236,6 +2341,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U$17" gate="G$1" x="302.26" y="-93.98" smashed="yes">
 <attribute name="NAME" x="295.45" y="-88.662" size="1" layer="95"/>
 </instance>
+<instance part="SW1" gate="G$1" x="116.84" y="27.94" smashed="yes">
+<attribute name="NAME" x="116.84" y="25.654" size="1.27" layer="95" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="129.54" y="27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="132.715" y="26.035" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2253,6 +2364,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U1" gate="G$1" pin="GND@23"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="101.6" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<wire x1="121.92" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="27.94" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="RST"/>
+<wire x1="106.68" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
