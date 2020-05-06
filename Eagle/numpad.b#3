@@ -1226,141 +1226,141 @@ design rules under a new name.</description>
 <element name="SW1" library="Hardware" package="SWITCH-SMD-SCHURTER-1241.1612.11" value="SWITCH-SMD-SCHURTER-1241.1612.11" x="11" y="65" smashed="yes">
 <attribute name="NAME" x="11" y="58.625" size="1.27" layer="21" font="vector" align="bottom-center"/>
 </element>
-<element name="D1" library="Components" package="DIODE_HAND" value="" x="6" y="-4" smashed="yes">
-<attribute name="NAME" x="6" y="-2.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-5.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D1" library="Components" package="DIODE_HAND" value="" x="29" y="85" smashed="yes">
+<attribute name="NAME" x="29" y="86.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="29" y="83.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D2" library="Components" package="DIODE_HAND" value="" x="6" y="-10" smashed="yes">
-<attribute name="NAME" x="6" y="-8.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-11.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D2" library="Components" package="DIODE_HAND" value="" x="48" y="85" smashed="yes">
+<attribute name="NAME" x="48" y="86.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="48" y="83.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D3" library="Components" package="DIODE_HAND" value="" x="6" y="-16" smashed="yes">
-<attribute name="NAME" x="6" y="-14.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-17.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D3" library="Components" package="DIODE_HAND" value="" x="67" y="85" smashed="yes">
+<attribute name="NAME" x="67" y="86.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="67" y="83.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D4" library="Components" package="DIODE_HAND" value="" x="6" y="-22" smashed="yes">
-<attribute name="NAME" x="6" y="-20.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-23.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D4" library="Components" package="DIODE_HAND" value="" x="86" y="84" smashed="yes">
+<attribute name="NAME" x="86" y="85.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="86" y="82.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D5" library="Components" package="DIODE_HAND" value="" x="6" y="-28" smashed="yes">
-<attribute name="NAME" x="6" y="-26.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-29.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D5" library="Components" package="DIODE_HAND" value="" x="29" y="66" smashed="yes">
+<attribute name="NAME" x="29" y="67.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="29" y="64.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D6" library="Components" package="DIODE_HAND" value="" x="6" y="-34" smashed="yes">
-<attribute name="NAME" x="6" y="-32.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-35.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D6" library="Components" package="DIODE_HAND" value="" x="48" y="66" smashed="yes">
+<attribute name="NAME" x="48" y="67.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="48" y="64.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D7" library="Components" package="DIODE_HAND" value="" x="6" y="-40" smashed="yes">
-<attribute name="NAME" x="6" y="-38.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-41.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D7" library="Components" package="DIODE_HAND" value="" x="67" y="66" smashed="yes">
+<attribute name="NAME" x="67" y="67.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="67" y="64.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D8" library="Components" package="DIODE_HAND" value="" x="6" y="-46" smashed="yes">
-<attribute name="NAME" x="6" y="-44.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-47.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D8" library="Components" package="DIODE_HAND" value="" x="85" y="46" smashed="yes">
+<attribute name="NAME" x="85" y="47.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="85" y="44.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D9" library="Components" package="DIODE_HAND" value="" x="6" y="-52" smashed="yes">
-<attribute name="NAME" x="6" y="-50.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-53.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D9" library="Components" package="DIODE_HAND" value="" x="66" y="46" smashed="yes">
+<attribute name="NAME" x="66" y="47.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="66" y="44.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D10" library="Components" package="DIODE_HAND" value="" x="-13" y="-53" smashed="yes">
-<attribute name="NAME" x="-13" y="-51.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="-13" y="-54.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D10" library="Components" package="DIODE_HAND" value="" x="47" y="46" smashed="yes">
+<attribute name="NAME" x="47" y="47.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="47" y="44.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D11" library="Components" package="DIODE_HAND" value="" x="6" y="-64" smashed="yes">
-<attribute name="NAME" x="6" y="-62.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-65.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D11" library="Components" package="DIODE_HAND" value="" x="28" y="46" smashed="yes">
+<attribute name="NAME" x="28" y="47.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="28" y="44.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D12" library="Components" package="DIODE_HAND" value="" x="66" y="8" smashed="yes">
+<element name="D12" library="Components" package="DIODE_HAND" value="" x="17" y="36" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.905" y="36" size="1.27" layer="21" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="15.095" y="36" size="1.27" layer="21" font="vector" rot="R270" align="top-center"/>
+</element>
+<element name="D13" library="Components" package="DIODE_HAND" value="" x="43" y="28" smashed="yes">
+<attribute name="NAME" x="43" y="29.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="43" y="26.095" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D14" library="Components" package="DIODE_HAND" value="" x="66" y="28" smashed="yes">
+<attribute name="NAME" x="66" y="29.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="66" y="26.095" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D15" library="Components" package="DIODE_HAND" value="" x="86" y="8" smashed="yes">
+<attribute name="NAME" x="86" y="9.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="86" y="6.095" size="1.27" layer="21" font="vector" align="top-center"/>
+</element>
+<element name="D16" library="Components" package="DIODE_HAND" value="" x="66" y="8" smashed="yes">
 <attribute name="NAME" x="66" y="9.905" size="1.27" layer="21" align="bottom-center"/>
 <attribute name="VALUE" x="66" y="6.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D13" library="Components" package="DIODE_HAND" value="" x="6" y="-76" smashed="yes">
-<attribute name="NAME" x="6" y="-74.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-77.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="D17" library="Components" package="DIODE_HAND" value="" x="38" y="8" smashed="yes">
+<attribute name="NAME" x="38" y="9.905" size="1.27" layer="21" align="bottom-center"/>
+<attribute name="VALUE" x="38" y="6.095" size="1.27" layer="21" font="vector" align="top-center"/>
 </element>
-<element name="D14" library="Components" package="DIODE_HAND" value="" x="6" y="-82" smashed="yes">
-<attribute name="NAME" x="6" y="-80.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="6" y="-83.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="TOPLEFT" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.62858125" y="93.80001875" smashed="yes">
+<attribute name="NAME" x="28.62858125" y="91.00001875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="28.62858125" y="91.00001875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="D15" library="Components" package="DIODE_HAND" value="" x="21" y="-6" smashed="yes">
-<attribute name="NAME" x="21" y="-4.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="21" y="-7.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="U$20" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.690496875" y="93.80954375" smashed="yes">
+<attribute name="NAME" x="47.690496875" y="91.00954375" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="47.690496875" y="91.00954375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="D16" library="Components" package="DIODE_HAND" value="" x="22" y="-96" smashed="yes">
-<attribute name="NAME" x="22" y="-94.095" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="22" y="-97.905" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="U$21" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.7381125" y="93.80954375" smashed="yes">
+<attribute name="NAME" x="66.7381125" y="91.00954375" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="66.7381125" y="91.00954375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="D17" library="Components" package="DIODE_HAND" value="" x="37" y="8" smashed="yes">
-<attribute name="NAME" x="37" y="9.905" size="1.27" layer="21" align="bottom-center"/>
-<attribute name="VALUE" x="37" y="6.095" size="1.27" layer="21" font="vector" align="top-center"/>
+<element name="TOPRIGHT" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="85.781765625" y="93.841296875" smashed="yes">
+<attribute name="NAME" x="85.781765625" y="91.041296875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="85.781765625" y="91.041296875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$19" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-124" smashed="yes">
-<attribute name="NAME" x="8" y="-126.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-126.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$23" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.62305" y="74.78178125" smashed="yes">
+<attribute name="NAME" x="28.62305" y="71.98178125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="28.62305" y="71.98178125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$20" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-139" smashed="yes">
-<attribute name="NAME" x="8" y="-141.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-141.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$24" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.690496875" y="74.761928125" smashed="yes">
+<attribute name="NAME" x="47.690496875" y="71.961928125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="47.690496875" y="71.961928125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$21" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-154" smashed="yes">
-<attribute name="NAME" x="8" y="-156.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-156.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$25" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.714303125" y="74.761928125" smashed="yes">
+<attribute name="NAME" x="66.714303125" y="71.961928125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="66.714303125" y="71.961928125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$22" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-169" smashed="yes">
-<attribute name="NAME" x="8" y="-171.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-171.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$26" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.702409375" y="55.76194375" smashed="yes">
+<attribute name="NAME" x="66.702409375" y="52.96194375" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="66.702409375" y="52.96194375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$23" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-184" smashed="yes">
-<attribute name="NAME" x="8" y="-186.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-186.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$27" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.66273125" y="55.74210625" smashed="yes">
+<attribute name="NAME" x="47.66273125" y="52.94210625" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="47.66273125" y="52.94210625" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$24" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-199" smashed="yes">
-<attribute name="NAME" x="8" y="-201.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-201.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$28" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.62305" y="55.70243125" smashed="yes">
+<attribute name="NAME" x="28.62305" y="52.90243125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="28.62305" y="52.90243125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$25" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-214" smashed="yes">
-<attribute name="NAME" x="8" y="-216.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-216.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$29" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.61713125" y="36.675715625" smashed="yes">
+<attribute name="NAME" x="28.61713125" y="33.875715625" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="28.61713125" y="33.875715625" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$26" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-229" smashed="yes">
-<attribute name="NAME" x="8" y="-231.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-231.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$30" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.66273125" y="36.662753125" smashed="yes">
+<attribute name="NAME" x="47.66273125" y="33.862753125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="47.66273125" y="33.862753125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$27" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-244" smashed="yes">
-<attribute name="NAME" x="8" y="-246.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-246.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$31" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.702409375" y="36.702428125" smashed="yes">
+<attribute name="NAME" x="66.702409375" y="33.902428125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="66.702409375" y="33.902428125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$28" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-259" smashed="yes">
-<attribute name="NAME" x="8" y="-261.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-261.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BOTTOM1" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.702409375" y="17.642915625" smashed="yes">
+<attribute name="NAME" x="66.702409375" y="14.842915625" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="66.702409375" y="14.842915625" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$29" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.775846875" y="17.5963625" smashed="yes">
-<attribute name="NAME" x="66.775846875" y="14.7963625" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="66.775846875" y="14.7963625" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$1" library="Keyboard" package="MX-2U-FLIPPED" value="KEYSWITCH-PLAIN-MX-2U-FLIPPED" x="38.17155" y="17.64106875" smashed="yes">
+<attribute name="NAME" x="38.17155" y="14.84106875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="38.17155" y="14.84106875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$30" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-289" smashed="yes">
-<attribute name="NAME" x="8" y="-291.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-291.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$2" library="Keyboard" package="MX-2U-ROTATED" value="KEYSWITCH-PLAIN-MX-2U-ROTATED" x="85.821146875" y="65.248903125" smashed="yes">
+<attribute name="NAME" x="85.821146875" y="62.448903125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="85.821146875" y="62.448903125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="U$31" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-304" smashed="yes">
-<attribute name="NAME" x="8" y="-306.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-306.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$32" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="8" y="-319" smashed="yes">
-<attribute name="NAME" x="8" y="-321.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="8" y="-321.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$1" library="Keyboard" package="MX-2U-FLIPPED" value="KEYSWITCH-PLAIN-MX-2U-FLIPPED" x="38.14889375" y="17.6302625" smashed="yes">
-<attribute name="NAME" x="38.14889375" y="14.8302625" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="38.14889375" y="14.8302625" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$2" library="Keyboard" package="MX-2U-ROTATED" value="KEYSWITCH-PLAIN-MX-2U-ROTATED" x="85.725915625" y="27.153675" smashed="yes">
-<attribute name="NAME" x="85.725915625" y="24.353675" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="85.725915625" y="24.353675" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U$3" library="Keyboard" package="MX-2U-ROTATED" value="KEYSWITCH-PLAIN-MX-2U-ROTATED" x="-46" y="-312" smashed="yes">
-<attribute name="NAME" x="-46" y="-314.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-46" y="-314.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="U$3" library="Keyboard" package="MX-2U-ROTATED" value="KEYSWITCH-PLAIN-MX-2U-ROTATED" x="85.781765625" y="27.158703125" smashed="yes">
+<attribute name="NAME" x="85.781765625" y="24.358703125" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="85.781765625" y="24.358703125" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1386,37 +1386,37 @@ design rules under a new name.</description>
 <contactref element="D1" pad="A2"/>
 <contactref element="D1" pad="A3"/>
 <contactref element="D1" pad="A1"/>
-<contactref element="U$19" pad="MX1"/>
-<wire x1="2.5" y1="-4" x2="4.19" y2="-121.46" width="0" layer="19" extent="1-1"/>
-<wire x1="4.349" y1="-4" x2="2.5" y2="-4" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-4" x2="4.349" y2="-4" width="0" layer="19" extent="1-16"/>
+<contactref element="TOPLEFT" pad="MX1"/>
+<wire x1="25.5" y1="85" x2="24.81858125" y2="96.34001875" width="0" layer="19" extent="1-1"/>
+<wire x1="27.349" y1="85" x2="25.5" y2="85" width="0" layer="19" extent="16-16"/>
+<wire x1="27.349" y1="85" x2="27.349" y2="85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$20" pad="MX1"/>
 <contactref element="D2" pad="A2"/>
 <contactref element="D2" pad="A3"/>
 <contactref element="D2" pad="A1"/>
-<wire x1="4.349" y1="-10" x2="4.19" y2="-136.46" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-10" x2="4.349" y2="-10" width="0" layer="19" extent="1-16"/>
-<wire x1="2.5" y1="-10" x2="4.349" y2="-10" width="0" layer="19" extent="16-16"/>
+<wire x1="46.349" y1="85" x2="43.880496875" y2="96.34954375" width="0" layer="19" extent="16-16"/>
+<wire x1="46.349" y1="85" x2="46.349" y2="85" width="0" layer="19" extent="1-16"/>
+<wire x1="44.5" y1="85" x2="46.349" y2="85" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="D3" pad="A2"/>
 <contactref element="D3" pad="A3"/>
 <contactref element="D3" pad="A1"/>
 <contactref element="U$21" pad="MX1"/>
-<wire x1="2.5" y1="-16" x2="4.19" y2="-151.46" width="0" layer="19" extent="1-1"/>
-<wire x1="4.349" y1="-16" x2="2.5" y2="-16" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-16" x2="4.349" y2="-16" width="0" layer="19" extent="1-16"/>
+<wire x1="63.5" y1="85" x2="62.9281125" y2="96.34954375" width="0" layer="19" extent="1-1"/>
+<wire x1="65.349" y1="85" x2="63.5" y2="85" width="0" layer="19" extent="16-16"/>
+<wire x1="65.349" y1="85" x2="65.349" y2="85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$5">
-<contactref element="U$22" pad="MX1"/>
+<contactref element="TOPRIGHT" pad="MX1"/>
 <contactref element="D4" pad="A2"/>
 <contactref element="D4" pad="A3"/>
 <contactref element="D4" pad="A1"/>
-<wire x1="4.349" y1="-22" x2="4.19" y2="-166.46" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-22" x2="4.349" y2="-22" width="0" layer="19" extent="1-16"/>
-<wire x1="2.5" y1="-22" x2="4.349" y2="-22" width="0" layer="19" extent="16-16"/>
+<wire x1="84.349" y1="84" x2="81.971765625" y2="96.381296875" width="0" layer="19" extent="16-16"/>
+<wire x1="84.349" y1="84" x2="84.349" y2="84" width="0" layer="19" extent="1-16"/>
+<wire x1="82.5" y1="84" x2="84.349" y2="84" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="D4" pad="C1"/>
@@ -1432,31 +1432,31 @@ design rules under a new name.</description>
 <contactref element="D1" pad="C3"/>
 <contactref element="D1" pad="C2"/>
 <contactref element="U1" pad="9"/>
-<wire x1="9.5" y1="-4" x2="3.617909375" y2="75.566665625" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-4" x2="9.5" y2="-4" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-4" x2="7.651" y2="-4" width="0" layer="19" extent="1-16"/>
-<wire x1="7.651" y1="-10" x2="7.651" y2="-4" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-10" x2="7.651" y2="-10" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-10" x2="7.651" y2="-10" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-16" x2="7.651" y2="-10" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-16" x2="7.651" y2="-16" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-16" x2="7.651" y2="-16" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-22" x2="7.651" y2="-16" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-22" x2="7.651" y2="-22" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-22" x2="7.651" y2="-22" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5" y1="85" x2="3.617909375" y2="75.566665625" width="0" layer="19" extent="1-1"/>
+<wire x1="30.651" y1="85" x2="32.5" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="30.651" y1="85" x2="30.651" y2="85" width="0" layer="19" extent="1-16"/>
+<wire x1="49.651" y1="85" x2="30.651" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="49.651" y1="85" x2="49.651" y2="85" width="0" layer="19" extent="1-16"/>
+<wire x1="51.5" y1="85" x2="49.651" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="68.651" y1="85" x2="49.651" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="68.651" y1="85" x2="68.651" y2="85" width="0" layer="19" extent="1-16"/>
+<wire x1="70.5" y1="85" x2="68.651" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="87.651" y1="84" x2="68.651" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="87.651" y1="84" x2="87.651" y2="84" width="0" layer="19" extent="1-16"/>
+<wire x1="89.5" y1="84" x2="87.651" y2="84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
-<contactref element="U$19" pad="MX2"/>
+<contactref element="TOPLEFT" pad="MX2"/>
 <contactref element="U$23" pad="MX2"/>
 <contactref element="U$28" pad="MX2"/>
 <contactref element="U$29" pad="MX2"/>
 <contactref element="U1" pad="10"/>
 <contactref element="U$1" pad="MX2"/>
-<wire x1="10.54" y1="-178.92" x2="10.54" y2="-253.92" width="0" layer="19" extent="1-1"/>
-<wire x1="10.54" y1="-118.92" x2="10.54" y2="-178.92" width="0" layer="19" extent="1-1"/>
-<wire x1="40.68889375" y1="22.7102625" x2="10.54" y2="-253.92" width="0" layer="19" extent="1-1"/>
-<wire x1="69.315846875" y1="22.6763625" x2="10.54" y2="-118.92" width="0" layer="19" extent="1-1"/>
-<wire x1="18.737909375" y1="75.566665625" x2="69.315846875" y2="22.6763625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.16305" y1="79.86178125" x2="31.16305" y2="60.78243125" width="0" layer="19" extent="1-1"/>
+<wire x1="31.16858125" y1="98.88001875" x2="31.16305" y2="79.86178125" width="0" layer="19" extent="1-1"/>
+<wire x1="40.71155" y1="22.72106875" x2="31.16305" y2="60.78243125" width="0" layer="19" extent="1-1"/>
+<wire x1="31.15713125" y1="41.755715625" x2="31.16858125" y2="98.88001875" width="0" layer="19" extent="1-1"/>
+<wire x1="18.737909375" y1="75.566665625" x2="31.15713125" y2="41.755715625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="U$20" pad="MX2"/>
@@ -1464,127 +1464,127 @@ design rules under a new name.</description>
 <contactref element="U$30" pad="MX2"/>
 <contactref element="U$27" pad="MX2"/>
 <contactref element="U1" pad="16"/>
-<wire x1="10.54" y1="-193.92" x2="10.54" y2="-238.92" width="0" layer="19" extent="1-1"/>
-<wire x1="10.54" y1="-283.92" x2="10.54" y2="-238.92" width="0" layer="19" extent="1-1"/>
-<wire x1="10.54" y1="-133.92" x2="10.54" y2="-193.92" width="0" layer="19" extent="1-1"/>
-<wire x1="18.737909375" y1="78.106665625" x2="10.54" y2="-133.92" width="0" layer="19" extent="1-1"/>
+<wire x1="50.230496875" y1="79.841928125" x2="50.20273125" y2="60.82210625" width="0" layer="19" extent="1-1"/>
+<wire x1="50.20273125" y1="41.742753125" x2="50.20273125" y2="60.82210625" width="0" layer="19" extent="1-1"/>
+<wire x1="50.230496875" y1="98.88954375" x2="50.230496875" y2="79.841928125" width="0" layer="19" extent="1-1"/>
+<wire x1="18.737909375" y1="78.106665625" x2="50.230496875" y2="98.88954375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="D5" pad="A2"/>
 <contactref element="D5" pad="A3"/>
 <contactref element="D5" pad="A1"/>
 <contactref element="U$23" pad="MX1"/>
-<wire x1="2.5" y1="-28" x2="4.19" y2="-181.46" width="0" layer="19" extent="1-1"/>
-<wire x1="4.349" y1="-28" x2="2.5" y2="-28" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-28" x2="4.349" y2="-28" width="0" layer="19" extent="1-16"/>
+<wire x1="25.5" y1="66" x2="24.81305" y2="77.32178125" width="0" layer="19" extent="1-1"/>
+<wire x1="27.349" y1="66" x2="25.5" y2="66" width="0" layer="19" extent="16-16"/>
+<wire x1="27.349" y1="66" x2="27.349" y2="66" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$10">
 <contactref element="D6" pad="A2"/>
 <contactref element="D6" pad="A3"/>
 <contactref element="D6" pad="A1"/>
 <contactref element="U$24" pad="MX1"/>
-<wire x1="2.5" y1="-34" x2="4.19" y2="-196.46" width="0" layer="19" extent="1-1"/>
-<wire x1="4.349" y1="-34" x2="2.5" y2="-34" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-34" x2="4.349" y2="-34" width="0" layer="19" extent="1-16"/>
+<wire x1="44.5" y1="66" x2="43.880496875" y2="77.301928125" width="0" layer="19" extent="1-1"/>
+<wire x1="46.349" y1="66" x2="44.5" y2="66" width="0" layer="19" extent="16-16"/>
+<wire x1="46.349" y1="66" x2="46.349" y2="66" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$11">
 <contactref element="D7" pad="A2"/>
 <contactref element="D7" pad="A3"/>
 <contactref element="D7" pad="A1"/>
 <contactref element="U$25" pad="MX1"/>
-<wire x1="2.5" y1="-40" x2="4.19" y2="-211.46" width="0" layer="19" extent="1-1"/>
-<wire x1="4.349" y1="-40" x2="2.5" y2="-40" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-40" x2="4.349" y2="-40" width="0" layer="19" extent="1-16"/>
+<wire x1="63.5" y1="66" x2="62.904303125" y2="77.301928125" width="0" layer="19" extent="1-1"/>
+<wire x1="65.349" y1="66" x2="63.5" y2="66" width="0" layer="19" extent="16-16"/>
+<wire x1="65.349" y1="66" x2="65.349" y2="66" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="D8" pad="A2"/>
 <contactref element="D8" pad="A3"/>
 <contactref element="D8" pad="A1"/>
 <contactref element="U$2" pad="MX1"/>
-<wire x1="2.5" y1="-46" x2="81.915915625" y2="29.693675" width="0" layer="19" extent="1-1"/>
-<wire x1="4.349" y1="-46" x2="2.5" y2="-46" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-46" x2="4.349" y2="-46" width="0" layer="19" extent="1-16"/>
+<wire x1="81.5" y1="46" x2="82.011146875" y2="67.788903125" width="0" layer="19" extent="1-1"/>
+<wire x1="83.349" y1="46" x2="81.5" y2="46" width="0" layer="19" extent="16-16"/>
+<wire x1="83.349" y1="46" x2="83.349" y2="46" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$13">
 <contactref element="D9" pad="A2"/>
 <contactref element="D9" pad="A3"/>
 <contactref element="D9" pad="A1"/>
 <contactref element="U$26" pad="MX1"/>
-<wire x1="4.349" y1="-52" x2="4.19" y2="-226.46" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-52" x2="4.349" y2="-52" width="0" layer="19" extent="1-16"/>
-<wire x1="2.5" y1="-52" x2="4.349" y2="-52" width="0" layer="19" extent="16-16"/>
+<wire x1="64.349" y1="46" x2="62.892409375" y2="58.30194375" width="0" layer="19" extent="16-16"/>
+<wire x1="64.349" y1="46" x2="64.349" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="62.5" y1="46" x2="64.349" y2="46" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$14">
 <contactref element="U$27" pad="MX1"/>
 <contactref element="D10" pad="A2"/>
 <contactref element="D10" pad="A3"/>
 <contactref element="D10" pad="A1"/>
-<wire x1="-16.5" y1="-53" x2="4.19" y2="-241.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.651" y1="-53" x2="-16.5" y2="-53" width="0" layer="19" extent="16-16"/>
-<wire x1="-14.651" y1="-53" x2="-14.651" y2="-53" width="0" layer="19" extent="1-16"/>
+<wire x1="43.5" y1="46" x2="43.85273125" y2="58.28210625" width="0" layer="19" extent="1-1"/>
+<wire x1="45.349" y1="46" x2="43.5" y2="46" width="0" layer="19" extent="16-16"/>
+<wire x1="45.349" y1="46" x2="45.349" y2="46" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$15">
 <contactref element="D11" pad="A2"/>
 <contactref element="D11" pad="A3"/>
 <contactref element="D11" pad="A1"/>
 <contactref element="U$28" pad="MX1"/>
-<wire x1="4.349" y1="-64" x2="4.19" y2="-256.46" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-64" x2="4.349" y2="-64" width="0" layer="19" extent="1-16"/>
-<wire x1="2.5" y1="-64" x2="4.349" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="26.349" y1="46" x2="24.81305" y2="58.24243125" width="0" layer="19" extent="16-16"/>
+<wire x1="26.349" y1="46" x2="26.349" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="24.5" y1="46" x2="26.349" y2="46" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$16">
 <contactref element="D12" pad="A2"/>
 <contactref element="D12" pad="A3"/>
 <contactref element="D12" pad="A1"/>
 <contactref element="U$29" pad="MX1"/>
-<wire x1="64.349" y1="8" x2="62.5" y2="8" width="0" layer="19" extent="16-16"/>
-<wire x1="64.349" y1="8" x2="64.349" y2="8" width="0" layer="19" extent="1-16"/>
-<wire x1="62.965846875" y1="20.1363625" x2="62.5" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="37.651" x2="24.80713125" y2="39.215715625" width="0" layer="19" extent="16-16"/>
+<wire x1="17" y1="37.651" x2="17" y2="37.651" width="0" layer="19" extent="1-16"/>
+<wire x1="17" y1="39.5" x2="17" y2="37.651" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
 <contactref element="U$30" pad="MX1"/>
 <contactref element="D13" pad="A2"/>
 <contactref element="D13" pad="A3"/>
 <contactref element="D13" pad="A1"/>
-<wire x1="4.349" y1="-76" x2="2.5" y2="-76" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-76" x2="4.349" y2="-76" width="0" layer="19" extent="1-16"/>
-<wire x1="4.19" y1="-286.46" x2="2.5" y2="-76" width="0" layer="19" extent="1-1"/>
+<wire x1="41.349" y1="28" x2="39.5" y2="28" width="0" layer="19" extent="16-16"/>
+<wire x1="41.349" y1="28" x2="41.349" y2="28" width="0" layer="19" extent="1-16"/>
+<wire x1="43.85273125" y1="39.202753125" x2="39.5" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="D14" pad="A2"/>
 <contactref element="D14" pad="A3"/>
 <contactref element="D14" pad="A1"/>
 <contactref element="U$31" pad="MX1"/>
-<wire x1="4.349" y1="-82" x2="2.5" y2="-82" width="0" layer="19" extent="16-16"/>
-<wire x1="4.349" y1="-82" x2="4.349" y2="-82" width="0" layer="19" extent="1-16"/>
-<wire x1="4.19" y1="-301.46" x2="2.5" y2="-82" width="0" layer="19" extent="1-1"/>
+<wire x1="64.349" y1="28" x2="62.5" y2="28" width="0" layer="19" extent="16-16"/>
+<wire x1="64.349" y1="28" x2="64.349" y2="28" width="0" layer="19" extent="1-16"/>
+<wire x1="62.892409375" y1="39.242428125" x2="62.5" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="D16" pad="A2"/>
 <contactref element="D16" pad="A3"/>
 <contactref element="D16" pad="A1"/>
-<contactref element="U$32" pad="MX1"/>
-<wire x1="20.349" y1="-96" x2="18.5" y2="-96" width="0" layer="19" extent="16-16"/>
-<wire x1="20.349" y1="-96" x2="20.349" y2="-96" width="0" layer="19" extent="1-16"/>
-<wire x1="4.19" y1="-316.46" x2="20.349" y2="-96" width="0" layer="19" extent="16-16"/>
+<contactref element="BOTTOM1" pad="MX1"/>
+<wire x1="64.349" y1="8" x2="62.5" y2="8" width="0" layer="19" extent="16-16"/>
+<wire x1="64.349" y1="8" x2="64.349" y2="8" width="0" layer="19" extent="1-16"/>
+<wire x1="62.892409375" y1="20.182915625" x2="64.349" y2="8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$20">
 <contactref element="D17" pad="A2"/>
 <contactref element="D17" pad="A3"/>
 <contactref element="D17" pad="A1"/>
 <contactref element="U$1" pad="MX1"/>
-<wire x1="33.5" y1="8" x2="34.33889375" y2="20.1702625" width="0" layer="19" extent="1-1"/>
-<wire x1="35.349" y1="8" x2="33.5" y2="8" width="0" layer="19" extent="16-16"/>
-<wire x1="35.349" y1="8" x2="35.349" y2="8" width="0" layer="19" extent="1-16"/>
+<wire x1="34.5" y1="8" x2="34.36155" y2="20.18106875" width="0" layer="19" extent="1-1"/>
+<wire x1="36.349" y1="8" x2="34.5" y2="8" width="0" layer="19" extent="16-16"/>
+<wire x1="36.349" y1="8" x2="36.349" y2="8" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$21">
 <contactref element="D15" pad="A2"/>
 <contactref element="D15" pad="A3"/>
 <contactref element="D15" pad="A1"/>
 <contactref element="U$3" pad="MX1"/>
-<wire x1="17.5" y1="-6" x2="-49.81" y2="-309.46" width="0" layer="19" extent="1-1"/>
-<wire x1="19.349" y1="-6" x2="17.5" y2="-6" width="0" layer="19" extent="16-16"/>
-<wire x1="19.349" y1="-6" x2="19.349" y2="-6" width="0" layer="19" extent="1-16"/>
+<wire x1="82.5" y1="8" x2="81.971765625" y2="29.698703125" width="0" layer="19" extent="1-1"/>
+<wire x1="84.349" y1="8" x2="82.5" y2="8" width="0" layer="19" extent="16-16"/>
+<wire x1="84.349" y1="8" x2="84.349" y2="8" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="D15" pad="C1"/>
@@ -1597,15 +1597,15 @@ design rules under a new name.</description>
 <contactref element="D17" pad="C3"/>
 <contactref element="D17" pad="C2"/>
 <contactref element="U1" pad="5"/>
-<wire x1="40.5" y1="8" x2="3.617909375" y2="85.726665625" width="0" layer="19" extent="1-1"/>
-<wire x1="38.651" y1="8" x2="40.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="38.651" y1="8" x2="38.651" y2="8" width="0" layer="19" extent="1-16"/>
-<wire x1="24.5" y1="-6" x2="38.651" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="22.651" y1="-6" x2="24.5" y2="-6" width="0" layer="19" extent="1-1"/>
-<wire x1="22.651" y1="-6" x2="22.651" y2="-6" width="0" layer="19" extent="1-16"/>
-<wire x1="23.651" y1="-96" x2="24.5" y2="-6" width="0" layer="19" extent="1-1"/>
-<wire x1="23.651" y1="-96" x2="23.651" y2="-96" width="0" layer="19" extent="1-16"/>
-<wire x1="25.5" y1="-96" x2="23.651" y2="-96" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5" y1="8" x2="3.617909375" y2="85.726665625" width="0" layer="19" extent="1-1"/>
+<wire x1="39.651" y1="8" x2="41.5" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="39.651" y1="8" x2="39.651" y2="8" width="0" layer="19" extent="1-16"/>
+<wire x1="89.5" y1="8" x2="39.651" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="87.651" y1="8" x2="89.5" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="87.651" y1="8" x2="87.651" y2="8" width="0" layer="19" extent="1-16"/>
+<wire x1="67.651" y1="8" x2="89.5" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="67.651" y1="8" x2="67.651" y2="8" width="0" layer="19" extent="1-16"/>
+<wire x1="69.5" y1="8" x2="67.651" y2="8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="D14" pad="C1"/>
@@ -1618,15 +1618,15 @@ design rules under a new name.</description>
 <contactref element="D12" pad="C3"/>
 <contactref element="D12" pad="C2"/>
 <contactref element="U1" pad="6"/>
-<wire x1="67.651" y1="8" x2="3.617909375" y2="83.186665625" width="0" layer="19" extent="1-1"/>
-<wire x1="67.651" y1="8" x2="67.651" y2="8" width="0" layer="19" extent="1-16"/>
-<wire x1="69.5" y1="8" x2="67.651" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="-76" x2="67.651" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-76" x2="9.5" y2="-76" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-76" x2="7.651" y2="-76" width="0" layer="19" extent="1-16"/>
-<wire x1="7.651" y1="-82" x2="7.651" y2="-76" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-82" x2="7.651" y2="-82" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-82" x2="7.651" y2="-82" width="0" layer="19" extent="1-1"/>
+<wire x1="67.651" y1="28" x2="69.5" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="67.651" y1="28" x2="67.651" y2="28" width="0" layer="19" extent="1-16"/>
+<wire x1="46.5" y1="28" x2="67.651" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="44.651" y1="28" x2="46.5" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="44.651" y1="28" x2="44.651" y2="28" width="0" layer="19" extent="1-16"/>
+<wire x1="17" y1="32.5" x2="44.651" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="34.349" x2="17" y2="32.5" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="34.349" x2="17" y2="34.349" width="0" layer="19" extent="1-16"/>
+<wire x1="3.617909375" y1="83.186665625" x2="17" y2="34.349" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="D9" pad="C1"/>
@@ -1639,15 +1639,15 @@ design rules under a new name.</description>
 <contactref element="D11" pad="C3"/>
 <contactref element="D11" pad="C2"/>
 <contactref element="U1" pad="7"/>
-<wire x1="9.5" y1="-52" x2="3.617909375" y2="80.646665625" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-52" x2="9.5" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-52" x2="7.651" y2="-52" width="0" layer="19" extent="1-16"/>
-<wire x1="7.651" y1="-64" x2="7.651" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-64" x2="7.651" y2="-64" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-64" x2="7.651" y2="-64" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.5" y1="-53" x2="7.651" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.349" y1="-53" x2="-9.5" y2="-53" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.349" y1="-53" x2="-11.349" y2="-53" width="0" layer="19" extent="1-16"/>
+<wire x1="69.5" y1="46" x2="3.617909375" y2="80.646665625" width="0" layer="19" extent="1-1"/>
+<wire x1="67.651" y1="46" x2="69.5" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="67.651" y1="46" x2="67.651" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="29.651" y1="46" x2="67.651" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="29.651" y1="46" x2="29.651" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="31.5" y1="46" x2="29.651" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="46" x2="67.651" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="48.651" y1="46" x2="50.5" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="48.651" y1="46" x2="48.651" y2="46" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$26">
 <contactref element="D5" pad="C1"/>
@@ -1663,40 +1663,40 @@ design rules under a new name.</description>
 <contactref element="D7" pad="C3"/>
 <contactref element="D7" pad="C2"/>
 <contactref element="U1" pad="8"/>
-<wire x1="9.5" y1="-28" x2="3.617909375" y2="78.106665625" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-28" x2="9.5" y2="-28" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-28" x2="7.651" y2="-28" width="0" layer="19" extent="1-16"/>
-<wire x1="7.651" y1="-34" x2="7.651" y2="-28" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-34" x2="7.651" y2="-34" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-34" x2="7.651" y2="-34" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-40" x2="7.651" y2="-34" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-40" x2="7.651" y2="-40" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-40" x2="7.651" y2="-40" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-46" x2="7.651" y2="-40" width="0" layer="19" extent="1-1"/>
-<wire x1="7.651" y1="-46" x2="7.651" y2="-46" width="0" layer="19" extent="1-16"/>
-<wire x1="9.5" y1="-46" x2="7.651" y2="-46" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5" y1="66" x2="3.617909375" y2="78.106665625" width="0" layer="19" extent="1-1"/>
+<wire x1="30.651" y1="66" x2="32.5" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="30.651" y1="66" x2="30.651" y2="66" width="0" layer="19" extent="1-16"/>
+<wire x1="49.651" y1="66" x2="30.651" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="49.651" y1="66" x2="49.651" y2="66" width="0" layer="19" extent="1-16"/>
+<wire x1="51.5" y1="66" x2="49.651" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="68.651" y1="66" x2="49.651" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="68.651" y1="66" x2="68.651" y2="66" width="0" layer="19" extent="1-16"/>
+<wire x1="70.5" y1="66" x2="68.651" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="86.651" y1="46" x2="68.651" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="86.651" y1="46" x2="86.651" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="88.5" y1="46" x2="86.651" y2="46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="U$21" pad="MX2"/>
 <contactref element="U$25" pad="MX2"/>
 <contactref element="U$26" pad="MX2"/>
 <contactref element="U$31" pad="MX2"/>
-<contactref element="U$32" pad="MX2"/>
+<contactref element="BOTTOM1" pad="MX2"/>
 <contactref element="U1" pad="14"/>
-<wire x1="10.54" y1="-208.92" x2="10.54" y2="-223.92" width="0" layer="19" extent="1-1"/>
-<wire x1="10.54" y1="-148.92" x2="10.54" y2="-208.92" width="0" layer="19" extent="1-1"/>
-<wire x1="10.54" y1="-298.92" x2="10.54" y2="-223.92" width="0" layer="19" extent="1-1"/>
-<wire x1="10.54" y1="-313.92" x2="10.54" y2="-298.92" width="0" layer="19" extent="1-1"/>
-<wire x1="18.737909375" y1="80.646665625" x2="10.54" y2="-148.92" width="0" layer="19" extent="1-1"/>
+<wire x1="69.254303125" y1="79.841928125" x2="69.242409375" y2="60.84194375" width="0" layer="19" extent="1-1"/>
+<wire x1="69.2781125" y1="98.88954375" x2="69.254303125" y2="79.841928125" width="0" layer="19" extent="1-1"/>
+<wire x1="69.242409375" y1="41.782428125" x2="69.242409375" y2="60.84194375" width="0" layer="19" extent="1-1"/>
+<wire x1="69.242409375" y1="22.722915625" x2="69.242409375" y2="41.782428125" width="0" layer="19" extent="1-1"/>
+<wire x1="18.737909375" y1="80.646665625" x2="69.2781125" y2="98.88954375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
-<contactref element="U$22" pad="MX2"/>
+<contactref element="TOPRIGHT" pad="MX2"/>
 <contactref element="U1" pad="15"/>
 <contactref element="U$2" pad="MX2"/>
 <contactref element="U$3" pad="MX2"/>
-<wire x1="88.265915625" y1="32.233675" x2="10.54" y2="-163.92" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.46" y1="-306.92" x2="88.265915625" y2="32.233675" width="0" layer="19" extent="1-1"/>
-<wire x1="18.737909375" y1="83.186665625" x2="10.54" y2="-163.92" width="0" layer="19" extent="1-1"/>
+<wire x1="88.361146875" y1="70.328903125" x2="88.321765625" y2="98.921296875" width="0" layer="19" extent="1-1"/>
+<wire x1="88.321765625" y1="32.238703125" x2="88.361146875" y2="70.328903125" width="0" layer="19" extent="1-1"/>
+<wire x1="18.737909375" y1="83.186665625" x2="88.321765625" y2="98.921296875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
