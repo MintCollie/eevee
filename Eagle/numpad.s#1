@@ -9822,8 +9822,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="2.25" y="0" size="0.75" layer="21" align="center-left">K</text>
 </package>
 <package name="DO-35">
-<pad name="A" x="4.82" y="0" drill="1" diameter="2" shape="square"/>
-<pad name="C" x="-4.82" y="0" drill="1" diameter="2"/>
+<pad name="A" x="-4.705" y="0" drill="1" diameter="2" shape="square"/>
+<pad name="C" x="4.705" y="0" drill="1" diameter="2"/>
 <wire x1="-3.683" y1="-1.27" x2="-3.683" y2="1.27" width="0.2" layer="21"/>
 <wire x1="3.683" y1="1.27" x2="3.683" y2="-1.27" width="0.2" layer="21"/>
 <wire x1="-3.683" y1="1.27" x2="3.683" y2="1.27" width="0.2" layer="21"/>
@@ -10109,7 +10109,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$1" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-FLIPPED"/>
 <part name="U$2" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-ROTATED"/>
 <part name="U$3" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-2U-ROTATED"/>
-<part name="D1" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
 <part name="D2" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
 <part name="D3" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
 <part name="D4" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
@@ -10126,6 +10125,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="D15" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
 <part name="D16" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
 <part name="D17" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
+<part name="D1" library="Components" deviceset="DIODE" device="-DO-35" value="1N4148"/>
 </parts>
 <sheets>
 <sheet>
@@ -10202,10 +10202,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U$3" gate="G$1" x="302.26" y="-86.36" smashed="yes">
 <attribute name="NAME" x="295.45" y="-81.042" size="1" layer="95"/>
 </instance>
-<instance part="D1" gate="D$1" x="157.48" y="50.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="160.1216" y="53.1114" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="152.9842" y="53.3654" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="D2" gate="D$1" x="195.58" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="198.2216" y="53.1114" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="191.0842" y="53.3654" size="1.778" layer="96" rot="R270"/>
@@ -10269,6 +10265,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="D17" gate="D$1" x="180.34" y="-114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.9816" y="-111.9886" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="175.8442" y="-111.7346" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D1" gate="D$1" x="157.48" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="160.1216" y="53.1114" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="152.9842" y="53.3654" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -10504,9 +10504,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$2" class="0">
 <segment>
 <pinref part="TOPLEFT" gate="G$1" pin="P0"/>
-<pinref part="D1" gate="D$1" pin="A"/>
 <wire x1="162.56" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="58.42" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="D1" gate="D$1" pin="A"/>
 </segment>
 </net>
 <net name="COL0" class="0">
@@ -10630,12 +10630,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="D2" gate="D$1" pin="C"/>
 <wire x1="236.22" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 <junction x="236.22" y="45.72"/>
-<pinref part="D1" gate="D$1" pin="C"/>
 <wire x1="195.58" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <junction x="195.58" y="45.72"/>
+<label x="147.32" y="45.72" size="1.778" layer="95"/>
+<pinref part="D1" gate="D$1" pin="C"/>
 <wire x1="157.48" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <junction x="157.48" y="45.72"/>
-<label x="147.32" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A9(9,B5,PWM)"/>
